@@ -4,9 +4,8 @@ import heroImage1 from "../assets/sho3.jpeg";
 import ShoshoLogo from "./Shoshologo";
 import Fire from "./Fire";
 import Countdown from "./Countdown";
-import TributeSession from "./TributeSession";
-import GallerySection from "./GallerySection";
-import TimelineSection from "./TimelineSection";
+
+// import Legacy from "./Legacy";
 
 export default function Hero() {
     const images = [heroImage1];
@@ -154,9 +153,8 @@ export default function Hero() {
             </section>
             <Fire />
             <Countdown />
-            <TributeSession />
-            <GallerySection />
-            <TimelineSection />
+            
+            
         </>
     );
 }

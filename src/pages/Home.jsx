@@ -4,6 +4,9 @@ import menu from "../assets/menu.svg";
 import x from "../assets/x.svg";
 import Hero from "../components/Hero";
 import ShoshoLogo from "../components/Shoshologo";
+import TributeSession from "../components/TributeSession";
+import GallerySection from "../components/GallerySection";
+import TimelineSection from "../components/TimelineSection";
 
 
 
@@ -33,8 +36,8 @@ export default function Home() {
         <>
             <header
                 className={`top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled
-                        ? "bg-[#f3edd7] shadow-md backdrop-blur-md"
-                        : "bg-[#f3edd7]"
+                    ? "bg-[#f3edd7] shadow-md backdrop-blur-md"
+                    : "bg-[#f3edd7]"
                     }`}
             >
                 <nav className="container w-[90%] mx-auto flex items-center justify-between">
@@ -69,7 +72,7 @@ export default function Home() {
                     {/* Desktop Navigation */}
                     <div className="hidden lg:flex items-center gap-8 xl:gap-12 text-white">
                         <a
-                            href="#home"
+                            href="#tribute"
                             className={`text-[12px] transition-colors hover:text-amber-700 ${scrolled ? "text-[#b18f08]" : "text-[#b18f08]"
                                 }`}
                         >
@@ -77,7 +80,7 @@ export default function Home() {
                         </a>
 
                         <a
-                            href="#services"
+                            href="#gallery"
                             className={`text-[12px] transition-colors hover:text-amber-700 ${scrolled ? "text-[#b18f08]" : "text-[#b18f08]"
                                 }`}
                         >
@@ -86,7 +89,7 @@ export default function Home() {
 
                         {/* Products Link */}
                         <a
-                            href="#product"
+                            href="#journey"
                             className={`text-[12px] transition-colors hover:text-amber-700 ${scrolled ? "text-[#b18f08]" : "text-[#b18f08]"
                                 }`}
                         >
@@ -94,7 +97,7 @@ export default function Home() {
                         </a>
 
                         <a
-                            href="#contact"
+                            href="#legacy"
                             className={`text-[12px] transition-colors hover:text-amber-700 ${scrolled ? "text-[#b18f08]" : "text-[#b18f08]"
                                 }`}
                         >
@@ -102,18 +105,18 @@ export default function Home() {
                         </a>
 
                         <a
-                            href="#contact"
+                            
                             className={`text-[12px] transition-colors hover:text-amber-700 ${scrolled ? "text-[#b18f08]" : "text-[#b18f08]"
                                 }`}
                         >
                             GUESTBOOK
                         </a>
                         <a
-                            href="#contact"
+                            href="#"
                             className={`text-[12px] font-bold border border-[#b18f08] py-1 px-4 transition-all duration-300 hover:scale-105 bg-gradient-to-r from-[#b18f08] to-[#ecc62a] text-[#f3edd7] rounded-sm ${scrolled ? "text-[#f3edd7]" : "text-[#f3edd7]"
                                 }`}
                         >
-                          🎉 CELEBRATE
+                            🎉 CELEBRATE
                         </a>
                     </div>
                 </nav>
@@ -123,10 +126,10 @@ export default function Home() {
                     <div className="lg:hidden bg-white border-t border-gray-200">
                         <div className="px-4 py-4 space-y-4">
                             <a
-                                href="#home"
+                                href="#tribute"
                                 className={`block ${scrolled
-                                        ? "text-[#b18f08]"
-                                        : "text-[#b18f08]"
+                                    ? "text-[#b18f08]"
+                                    : "text-[#b18f08]"
                                     } hover:text-amber-700 font-medium transition-colors py-2`}
                                 onClick={() =>
                                     setIsMobileMenuOpen(false)
@@ -136,10 +139,10 @@ export default function Home() {
                             </a>
 
                             <a
-                                href="#services"
+                                href="#gallery"
                                 className={`block ${scrolled
-                                        ? "text-[#b18f08]"
-                                        : "text-[#b18f08]"
+                                    ? "text-[#b18f08]"
+                                    : "text-[#b18f08]"
                                     } hover:text-amber-700 font-medium transition-colors py-2`}
                                 onClick={() =>
                                     setIsMobileMenuOpen(false)
@@ -151,10 +154,10 @@ export default function Home() {
 
                             {/* Products Link */}
                             <a
-                                href="#product"
+                                href="#journey"
                                 className={`block ${scrolled
-                                        ? "text-[#b18f08]"
-                                        : "text-[#b18f08]"
+                                    ? "text-[#b18f08]"
+                                    : "text-[#b18f08]"
                                     } hover:text-amber-700 font-medium transition-colors py-2`}
                                 onClick={() =>
                                     setIsMobileMenuOpen(false)
@@ -164,10 +167,10 @@ export default function Home() {
                             </a>
 
                             <a
-                                href="#product"
+                                href="#legacy"
                                 className={`block ${scrolled
-                                        ? "text-[#b18f08]"
-                                        : "text-[#b18f08]"
+                                    ? "text-[#b18f08]"
+                                    : "text-[#b18f08]"
                                     } hover:text-amber-700 font-medium transition-colors py-2`}
                                 onClick={() =>
                                     setIsMobileMenuOpen(false)
@@ -177,10 +180,10 @@ export default function Home() {
                             </a>
 
                             <a
-                                href="#product"
+                                
                                 className={`block ${scrolled
-                                        ? "text-[#b18f08]"
-                                        : "text-[#b18f08]"
+                                    ? "text-[#b18f08]"
+                                    : "text-[#b18f08]"
                                     } hover:text-amber-700 font-medium transition-colors py-2`}
                                 onClick={() =>
                                     setIsMobileMenuOpen(false)
@@ -190,16 +193,16 @@ export default function Home() {
                             </a>
 
                             <a
-                                href="#contact"
+                                href="#"
                                 className={`block ${scrolled
-                                        ? "text-[#f3edd7]"
-                                        : "text-[#f3edd7]"
+                                    ? "text-[#f3edd7]"
+                                    : "text-[#f3edd7]"
                                     } hover:text-amber-700 font-medium  bg-[#b18f08] transition-colors py-2 px-1`}
                                 onClick={() =>
                                     setIsMobileMenuOpen(false)
                                 }
                             >
-                            🎉 CELEBRATE
+                                🎉 CELEBRATE
                             </a>
                         </div>
                     </div>
@@ -210,19 +213,19 @@ export default function Home() {
                 <Hero />
             </div>
 
-            {/* <div id="services">
-                <Service />
+            <div id="tribute">
+                <TributeSession />
             </div>
 
-            <div id="product">
-                <ProductPage />
+            <div id="gallery">
+                <GallerySection />
             </div>
 
-            <div id="contact">
-                <Contact />
+            <div id="journey">
+                <TimelineSection />
             </div>
+            
 
-            <Footer /> */}
         </>
     );
 }
