@@ -5,7 +5,7 @@ import ShoshoLogo from "./Shoshologo";
 import Fire from "./Fire";
 import Countdown from "./Countdown";
 
-// import Legacy from "./Legacy";
+
 
 export default function Hero() {
     const images = [heroImage1];

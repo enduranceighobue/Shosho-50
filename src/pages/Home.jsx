@@ -7,6 +7,10 @@ import ShoshoLogo from "../components/Shoshologo";
 import TributeSession from "../components/TributeSession";
 import GallerySection from "../components/GallerySection";
 import TimelineSection from "../components/TimelineSection";
+import Legacy from "../components/Legacy";
+import QuotesSection from "../components/QuotesSection";
+import GuestbookSection from "../components/GuestbookSection";
+import TributeFooter from "../components/TributeFooter";
 
 
 
@@ -105,7 +109,7 @@ export default function Home() {
                         </a>
 
                         <a
-                            
+                             href="#guestbook"
                             className={`text-[12px] transition-colors hover:text-amber-700 ${scrolled ? "text-[#b18f08]" : "text-[#b18f08]"
                                 }`}
                         >
@@ -179,7 +183,7 @@ export default function Home() {
                                 LEGACY
                             </a>
 
-                            <a
+                            <a  href="#guestbook"
                                 
                                 className={`block ${scrolled
                                     ? "text-[#b18f08]"
@@ -224,7 +228,22 @@ export default function Home() {
             <div id="journey">
                 <TimelineSection />
             </div>
-            
+
+            <div id="legacy">
+                <Legacy />
+            </div>
+
+            <div id="quotes">
+                <QuotesSection />
+            </div>
+
+            <div id="guestbook">
+                <GuestbookSection />
+            </div>
+
+            <TributeFooter />
+
+
 
         </>
     );
