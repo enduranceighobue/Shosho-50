@@ -4,42 +4,42 @@ const timelineData = [
   {
     year: "May 3, 1976",
     title: "Born In Ajegunle,Lagos",
-    text: "A life quietly shaped by family, values, and early dreams.",
+    text: "Fourth child of Mr. & Mrs. Patrick Irikefe Onabrakpor, born on Nosamu Street.Where perseverance was part of daily life.",
   },
   {
-    year: "School Days",
-    title: "Learning & Growth",
-    text: "Discovering knowledge, friendships, and purpose through education.",
+    year: "Early Years",
+    title: "Foundations of Discipline",
+    text: "Kajola Primary School - Ajeromi Ifelodun High School - Unity School, Agbarho Delta State. His guiding principle:no procastination no flop.",
   },
   {
-    year: "Youth",
-    title: "Finding Direction",
-    text: "Moments of self-discovery, ambition, and becoming.",
+    year: "1994",
+    title: "University of Port Harcourt",
+    text: "Mechanical Engineering degree - passion ignited. His diligence earned extended industrial training with Halliburton Energy Services.",
   },
   {
-    year: "Present",
-    title: "The Journey Continues",
-    text: "A life still unfolding — shaped by experience and vision.",
+    year: "1999",
+    title: "NYSC - A Strategic Move",
+    text: "Secured a redeployment to Rivers State - heart of Nigeria's oil and gas industry. Retained by Halliburton as Assistant Service Operator.",
   },
   {
-    year: "Present",
-    title: "The Journey Continues",
-    text: "A life still unfolding — shaped by experience and vision.",
+    year: "1999 - 2018",
+    title: "Halliburton - A Career Of Impact",
+    text: "Nearly two decades of distinction. Multiple MVP Awards. Advance to Technical Professional - technical mastery and strategic impact combined.",
   },
   {
-    year: "Present",
-    title: "The Journey Continues",
-    text: "A life still unfolding — shaped by experience and vision.",
+    year: "2018",
+    title: "NetCore Integrated Services",
+    text: "Technical Advisor & Business Development Director - shaping industry growth while his enterpreneurial vision quietly grew.",
   },
   {
-    year: "Present",
-    title: "The Journey Continues",
-    text: "A life still unfolding — shaped by experience and vision.",
+    year: "2024",
+    title: "PIO Suite LTD",
+    text: "Founded a Premium African Hospitality Brand. Flagship in Abraka, Delta State. Expanding to Lekki, Lagos.",
   },
   {
-    year: "Present",
-    title: "The Journey Continues",
-    text: "A life still unfolding — shaped by experience and vision.",
+    year: "ONGOING",
+    title: "MBA - Gies Business School",
+    text: "University of Illinois Urbana-Champaign - because the pursuit of excellence never ends.",
   },
 ];
 
@@ -55,7 +55,7 @@ const TimelineSection = () => {
   }, []);
 
   return (
-    <div className="bg-[#f2f2f5]">
+    <div className="bg-[#f3edd7]">
       <section className="timeline-section">
       {/* HEADER */}
       <div className="text-center">
