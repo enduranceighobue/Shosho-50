@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useEffect } from "react";
 
 const tabs = [
@@ -33,22 +35,42 @@ const tabs = [
     },
 ];
 
+const defaultPhotos = {
+    young: [],
+    school: [],
+    friends: [],
+    family: [],
+    others: [],
+};
+
 const GallerySection = () => {
     const [activeTab, setActiveTab] = useState("young");
+    const [photos, setPhotos] = useState(defaultPhotos);
+    const [loaded, setLoaded] = useState(false);
 
-    // PHOTO STORAGE
-    const [photos, setPhotos] = useState({
-        young: [],
-        school: [],
-        friends: [],
-        family: [],
-        others: [],
-    });
-
-
-
-
+    // CURRENT TAB
     const currentTab = tabs.find((tab) => tab.id === activeTab);
+
+    // LOAD SAVED PHOTOS
+    useEffect(() => {
+        const savedPhotos = localStorage.getItem("galleryPhotos");
+
+        if (savedPhotos) {
+            setPhotos(JSON.parse(savedPhotos));
+        }
+
+        setLoaded(true);
+    }, []);
+
+    // SAVE PHOTOS
+    useEffect(() => {
+        if (!loaded) return;
+
+        localStorage.setItem(
+            "galleryPhotos",
+            JSON.stringify(photos)
+        );
+    }, [photos, loaded]);
 
     // HANDLE IMAGE UPLOAD
     const handleUpload = (e, tabId) => {
@@ -58,8 +80,8 @@ const GallerySection = () => {
             return new Promise((resolve) => {
                 const reader = new FileReader();
 
-                reader.onload = () => {
-                    resolve(reader.result); // base64 string
+                reader.onloadend = () => {
+                    resolve(reader.result);
                 };
 
                 reader.readAsDataURL(file);
@@ -67,43 +89,36 @@ const GallerySection = () => {
         });
 
         Promise.all(imagePromises).then((images) => {
-            setPhotos((prev) => {
-                const updated = {
-                    ...prev,
-                    [tabId]: [...prev[tabId], ...images],
-                };
-
-                localStorage.setItem("galleryPhotos", JSON.stringify(updated));
-
-                return updated;
-            });
+            setPhotos((prev) => ({
+                ...prev,
+                [tabId]: [...prev[tabId], ...images],
+            }));
         });
     };
 
-    useEffect(() => {
-        const saved = localStorage.getItem("galleryPhotos");
-
-        if (saved) {
-            setPhotos(JSON.parse(saved));
-        }
-    }, []);
-
-
+    // DELETE PHOTO
     const handleDelete = (tabId, indexToRemove) => {
         setPhotos((prev) => ({
             ...prev,
-            [tabId]: prev[tabId].filter((_, index) => index !== indexToRemove),
+            [tabId]: prev[tabId].filter(
+                (_, index) => index !== indexToRemove
+            ),
         }));
     };
 
     return (
         <div className="bg-[#f0e7c0]">
             <section className="gallery-section">
+
                 {/* HEADER */}
                 <div className="text-center">
-                    <p className="gallery-label">A LIFE WELL LIVED</p>
+                    <p className="gallery-label">
+                        A LIFE WELL LIVED
+                    </p>
 
-                    <h2 className="gallery-title">Photo Gallery</h2>
+                    <h2 className="gallery-title">
+                        Photo Gallery
+                    </h2>
 
                     <p className="gallery-sub">
                         Click any frame to upload a photo
@@ -112,18 +127,18 @@ const GallerySection = () => {
                     <div className="gold-rule cen"></div>
                 </div>
 
-                {/* CATEGORY BUTTONS */}
+                {/* TABS */}
                 <div className="tabs-wrap">
                     {tabs.map((tab) => (
                         <button
                             key={tab.id}
                             onClick={() => setActiveTab(tab.id)}
-                            className={`tab-btn ${activeTab === tab.id ? "active" : ""
-                                }`}
+                            className={`tab-btn ${
+                                activeTab === tab.id ? "active" : ""
+                            }`}
                         >
                             {tab.label}
 
-                            {/* PHOTO COUNT */}
                             <span className="tab-count">
                                 {photos[tab.id].length}
                             </span>
@@ -142,52 +157,61 @@ const GallerySection = () => {
                     </p>
                 </div>
 
-                {/* GALLERY GRID */}
+                {/* GALLERY */}
                 <div className="photos-grid">
+
                     {/* EMPTY STATE */}
                     {photos[activeTab].length === 0 && (
-                        <div className="empty-state ">
+                        <div className="empty-state">
                             <div className="ei">
                                 {currentTab.icon}
                             </div>
 
                             <p>
-                                No photos yet — click the button below to
-                                add some
+                                No photos yet — click below to add some
                             </p>
                         </div>
                     )}
 
                     {/* PHOTOS */}
                     {photos[activeTab].map((photo, index) => (
-                        <div key={index} className="photo-card">
-
-                            <img src={photo} alt="" />
+                        <div
+                            key={index}
+                            className="photo-card"
+                        >
+                            <img
+                                src={photo}
+                                alt={`Gallery ${index}`}
+                            />
 
                             <button
                                 className="delete-btn"
-                                onClick={() => handleDelete(activeTab, index)}
+                                onClick={() =>
+                                    handleDelete(activeTab, index)
+                                }
                             >
                                 ✕
                             </button>
-
                         </div>
                     ))}
 
                     {/* ADD PHOTO */}
-                    <label className="add-btn" >
+                    <label className="add-btn">
                         <span className="text-3xl">＋</span>
+
                         <span>Add Photo</span>
 
                         <input
                             type="file"
                             accept="image/*"
                             multiple
+                            hidden
                             onChange={(e) =>
                                 handleUpload(e, activeTab)
                             }
                         />
                     </label>
+
                 </div>
             </section>
         </div>

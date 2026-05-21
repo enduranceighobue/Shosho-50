@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function GuestbookSection() {
   const [formData, setFormData] = useState({
@@ -7,8 +7,8 @@ export default function GuestbookSection() {
     message: "",
   });
 
-  // TRIBUTES STATE
-  const [tributes, setTributes] = useState([
+  // DEFAULT TRIBUTES
+  const defaultTributes = [
     {
       id: 1,
       name: "Adaeze",
@@ -25,7 +25,21 @@ export default function GuestbookSection() {
         "A beautiful soul who touched everyone around with grace and wisdom.",
       time: "10 mins ago",
     },
-  ]);
+  ];
+
+  // LOAD FROM LOCAL STORAGE
+  const [tributes, setTributes] = useState(() => {
+    const savedTributes = localStorage.getItem("tributes");
+
+    return savedTributes
+      ? JSON.parse(savedTributes)
+      : defaultTributes;
+  });
+
+  // SAVE TO LOCAL STORAGE WHENEVER TRIBUTES CHANGE
+  useEffect(() => {
+    localStorage.setItem("tributes", JSON.stringify(tributes));
+  }, [tributes]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -39,7 +53,6 @@ export default function GuestbookSection() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // CREATE NEW TRIBUTE
     const newTribute = {
       id: Date.now(),
       name: formData.name,
@@ -48,7 +61,7 @@ export default function GuestbookSection() {
       time: "Just now",
     };
 
-    // ADD TO TOP
+    // ADD NEW TRIBUTE
     setTributes((prev) => [newTribute, ...prev]);
 
     // RESET FORM
@@ -58,6 +71,7 @@ export default function GuestbookSection() {
       message: "",
     });
   };
+
 
   return (
     <div>
