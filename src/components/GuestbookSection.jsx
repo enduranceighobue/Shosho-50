@@ -11,30 +11,32 @@ export default function GuestbookSection() {
   const defaultTributes = [
     {
       id: 1,
-      name: "Adaeze",
-      relation: "Family",
+      name: "The Halliburton MVP Team",
+      relation: "Colleague",
       message:
-        "Shosho’s kindness and warmth will forever remain in our hearts.",
-      time: "2 mins ago",
+        "Two decades of watching you lead with discipline and brilliance. The MVP award was never enough to capture what you trully brought - vision, integrity and an unwavering work ethic. Here's is to 50 years of exellence!",
+      time: "May,20th 2026",
     },
     {
       id: 2,
-      name: "Michael",
-      relation: "Friend",
+      name: "The Onorbrakpor",
+      relation: "Family",
       message:
-        "A beautiful soul who touched everyone around with grace and wisdom.",
-      time: "10 mins ago",
+        "Ochuko, fifty years of watching you grow from that fourth child on Nosamu street to the man you are today filled our minds with immeasurable pride. You have always made us believe that where you start is just the begining. Happy Golden Jubilee!",
+      time: "May,22nd 2026",
     },
   ];
 
   // LOAD FROM LOCAL STORAGE
-  const [tributes, setTributes] = useState(() => {
-    const savedTributes = localStorage.getItem("tributes");
+  const [tributes, setTributes] = useState(defaultTributes);
 
-    return savedTributes
-      ? JSON.parse(savedTributes)
-      : defaultTributes;
-  });
+useEffect(() => {
+  const savedTributes = localStorage.getItem("tributes");
+
+  if (savedTributes) {
+    setTributes(JSON.parse(savedTributes));
+  }
+}, []);
 
   // SAVE TO LOCAL STORAGE WHENEVER TRIBUTES CHANGE
   useEffect(() => {
@@ -58,7 +60,7 @@ export default function GuestbookSection() {
       name: formData.name,
       relation: formData.relation,
       message: formData.message,
-      time: "Just now",
+      time: getCurrentTime(),
     };
 
     // ADD NEW TRIBUTE
@@ -72,6 +74,12 @@ export default function GuestbookSection() {
     });
   };
 
+  const getCurrentTime = () => {
+  return new Date().toLocaleString("en-NG", {
+    dateStyle: "medium",
+    timeStyle: "short",
+  });
+};
 
   return (
     <div>
