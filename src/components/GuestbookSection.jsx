@@ -19,11 +19,27 @@ export default function GuestbookSection() {
     },
     {
       id: 2,
-      name: "The Onorbrakpor",
+      name: "Onorbrakpor Family",
       relation: "Family",
       message:
         "Ochuko, fifty years of watching you grow from that fourth child on Nosamu street to the man you are today filled our minds with immeasurable pride. You have always made us believe that where you start is just the begining. Happy Golden Jubilee!",
       time: "May,22nd 2026",
+    },
+     {
+      id: 3,
+      name: "Wilmerconnect, Ajegunle.",
+      relation: "Community Member",
+      message:
+        "You never forget where you came from, even as your career soared, you kept giving back to Ajegunle - the street that shaped you. You are a true son of the soil. Congratulations on 50 years of inspiring greatness!",
+      time: "May,26th 2026",
+    },
+     {
+      id: 4,
+      name: "Ajero Alumni, Class of '93",
+      relation: "Classmate / Alumni",
+      message:
+        "We remember the quiet determination that set you apart even back in school. Today that same resolved has taken you around the world and back. We are proud to call you ours. Happy 50th, Shosho!",
+      time: "May,26th 2026",
     },
   ];
 

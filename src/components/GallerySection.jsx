@@ -1,7 +1,43 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
+// ================= IMAGES =================
+// IMPORT YOUR IMAGES HERE
+
+// YOUNG
+import young1 from "../assets/young1.jpeg";
+import young2 from "../assets/young2.jpeg";
+
+// SCHOOL
+import school1 from "../assets/school1.jpeg";
+import school2 from "../assets/school2.jpeg";
+
+// FRIENDS
+import friends1 from "../assets/friends1.jpeg";
+import friends2 from "../assets/friends2.jpeg";
+
+// FAMILY
+import family1 from "../assets/fam1.jpeg";
+import family2 from "../assets/fam2.jpeg";
+import family3 from "../assets/fam3.jpeg";
+import family4 from "../assets/fam4.jpeg";
+import family5 from "../assets/fam5.jpeg";
+
+// OTHERS
+import other1 from "../assets/others.jpeg";
+import other2 from "../assets/others2.jpeg";
+import other3 from "../assets/other3.jpeg";
+import other4 from "../assets/other4.jpeg";
+import other5 from "../assets/other5.jpeg";
+import other6 from "../assets/other6.jpeg";
+import other7 from "../assets/other7.jpeg";
+import other8 from "../assets/other8.jpeg";
+import other9 from "../assets/other9.jpeg";
+import other10 from "../assets/other10.jpeg";
+
+
+// ================= TABS =================
 const tabs = [
     {
         id: "young",
@@ -35,76 +71,54 @@ const tabs = [
     },
 ];
 
-const defaultPhotos = {
-    young: [],
-    school: [],
-    friends: [],
-    family: [],
-    others: [],
+// ================= PHOTOS =================
+// ADD ALL YOUR IMAGES INSIDE THEIR CATEGORY
+
+const photos = {
+    young: [
+        young1,
+        young2,
+    ],
+
+    school: [
+        school1,
+        school2,
+    ],
+
+    friends: [
+        friends1,
+        friends2,
+    ],
+
+    family: [
+        family1,
+        family2,
+        family3,
+        family4,
+        family5,
+    ],
+
+    others: [
+        other1,
+        other2,
+        other3,
+        other4,
+        other5,
+        other6,
+        other7,
+        other8,
+        other9,
+        other10,
+    ],
 };
 
 const GallerySection = () => {
     const [activeTab, setActiveTab] = useState("young");
-    const [photos, setPhotos] = useState(defaultPhotos);
-    const [loaded, setLoaded] = useState(false);
 
     // CURRENT TAB
-    const currentTab = tabs.find((tab) => tab.id === activeTab);
-
-    // LOAD SAVED PHOTOS
-    useEffect(() => {
-        const savedPhotos = localStorage.getItem("galleryPhotos");
-
-        if (savedPhotos) {
-            setPhotos(JSON.parse(savedPhotos));
-        }
-
-        setLoaded(true);
-    }, []);
-
-    // SAVE PHOTOS
-    useEffect(() => {
-        if (!loaded) return;
-
-        localStorage.setItem(
-            "galleryPhotos",
-            JSON.stringify(photos)
-        );
-    }, [photos, loaded]);
-
-    // HANDLE IMAGE UPLOAD
-    const handleUpload = (e, tabId) => {
-        const files = Array.from(e.target.files);
-
-        const imagePromises = files.map((file) => {
-            return new Promise((resolve) => {
-                const reader = new FileReader();
-
-                reader.onloadend = () => {
-                    resolve(reader.result);
-                };
-
-                reader.readAsDataURL(file);
-            });
-        });
-
-        Promise.all(imagePromises).then((images) => {
-            setPhotos((prev) => ({
-                ...prev,
-                [tabId]: [...prev[tabId], ...images],
-            }));
-        });
-    };
-
-    // DELETE PHOTO
-    const handleDelete = (tabId, indexToRemove) => {
-        setPhotos((prev) => ({
-            ...prev,
-            [tabId]: prev[tabId].filter(
-                (_, index) => index !== indexToRemove
-            ),
-        }));
-    };
+    const currentTab = tabs.find(
+        (tab) => tab.id === activeTab
+    );
 
     return (
         <div className="bg-[#f0e7c0]">
@@ -121,7 +135,7 @@ const GallerySection = () => {
                     </h2>
 
                     <p className="gallery-sub">
-                        Click any frame to upload a photo
+                        Explore beautiful memories
                     </p>
 
                     <div className="gold-rule cen"></div>
@@ -132,10 +146,13 @@ const GallerySection = () => {
                     {tabs.map((tab) => (
                         <button
                             key={tab.id}
-                            onClick={() => setActiveTab(tab.id)}
-                            className={`tab-btn ${
-                                activeTab === tab.id ? "active" : ""
-                            }`}
+                            onClick={() =>
+                                setActiveTab(tab.id)
+                            }
+                            className={`tab-btn ${activeTab === tab.id
+                                    ? "active"
+                                    : ""
+                                }`}
                         >
                             {tab.label}
 
@@ -168,49 +185,25 @@ const GallerySection = () => {
                             </div>
 
                             <p>
-                                No photos yet — click below to add some
+                                No photos available yet
                             </p>
                         </div>
                     )}
 
                     {/* PHOTOS */}
-                    {photos[activeTab].map((photo, index) => (
-                        <div
-                            key={index}
-                            className="photo-card"
-                        >
-                            <img
-                                src={photo}
-                                alt={`Gallery ${index}`}
-                            />
-
-                            <button
-                                className="delete-btn"
-                                onClick={() =>
-                                    handleDelete(activeTab, index)
-                                }
+                    {photos[activeTab].map(
+                        (photo, index) => (
+                            <div
+                                key={index}
+                                className="photo-card"
                             >
-                                ✕
-                            </button>
-                        </div>
-                    ))}
-
-                    {/* ADD PHOTO */}
-                    <label className="add-btn">
-                        <span className="text-3xl">＋</span>
-
-                        <span>Add Photo</span>
-
-                        <input
-                            type="file"
-                            accept="image/*"
-                            multiple
-                            hidden
-                            onChange={(e) =>
-                                handleUpload(e, activeTab)
-                            }
-                        />
-                    </label>
+                                <img
+                                    src={photo}
+                                    alt={`Gallery ${index}`}
+                                />
+                            </div>
+                        )
+                    )}
 
                 </div>
             </section>

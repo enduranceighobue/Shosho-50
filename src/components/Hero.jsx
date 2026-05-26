@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import heroImage1 from "../assets/sho3.jpeg";
+import heroImage1 from "../assets/hero.png";
 import ShoshoLogo from "./Shoshologo";
 import Fire from "./Fire";
 import Countdown from "./Countdown";
@@ -122,7 +122,7 @@ export default function Hero() {
                                     <div className="absolute inset-0 bg-[#ecc62a]/20 blur-3xl rounded-full"></div>
 
                                     <img
-                                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop"
+                                        src="/src/assets/portrait.jpeg"
                                         alt="Portrait"
                                         className="relative w-[200px] sm:w-[200px] lg:w-[350px] h-[300px] lg:h-[400px] object-cover mr-20  border border-[#ecc62a]/40 shadow-2xl"
                                     />
