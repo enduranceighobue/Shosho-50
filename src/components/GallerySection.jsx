@@ -4,7 +4,6 @@ import { useState } from "react";
 
 // ================= IMAGES =================
 // IMPORT YOUR IMAGES HERE
-
 // YOUNG
 import young1 from "../assets/young1.jpeg";
 import young2 from "../assets/young2.jpeg";
