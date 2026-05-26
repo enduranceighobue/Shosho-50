@@ -22,7 +22,7 @@ const TributeSession = () => {
         From those early beginnings, a life would unfold that would travel far
         beyond the streets of childhood, touching industries, communities, and
         generations. His story is not simply one of success. It is a story of
-        discipline, courage, and a relentless belief that the future belongs to
+       <strong> discipline, courage, and a relentless belief</strong> that the future belongs to
         those willing to work for it.
       </p>
 
