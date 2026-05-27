@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
-import heroImage1 from "../assets/hero.png";
+import heroImage1 from "../assets/other11.jpeg";
 import ShoshoLogo from "./Shoshologo";
 import Fire from "./Fire";
 import Countdown from "./Countdown";
-import prt1 from "../assets/portrait.jpeg";
+import prt1 from "../assets/other8.jpeg";
 
 
 
@@ -126,24 +126,21 @@ export default function Hero() {
                                     <img
                                         src={prt1}
                                         alt="Portrait"
-                                        className="relative w-[200px] sm:w-[200px] lg:w-[350px] h-[300px] lg:h-[400px] object-cover mr-20  border border-[#ecc62a]/40 shadow-2xl"
+                                        className="relative w-[170px] sm:w-[210px] lg:w-[270px] h-[250px] lg:h-[300px] object-cover mr-20  border-2 border-[#ecc62a]/40 shadow-2xl"
                                     />
                                     {/* NAME INSIDE PORTRAIT */}
-                                    <div className="absolute bottom-14 left-2/5 -translate-x-1/2 bg-[#b18f08] px-3 py-1">
+                                    <div className="absolute bottom-0 left-2/5 -translate-x-1/2 bg-[#b18f08] px-3 py-1">
                                         <p className="text-black text-sm font-semibold text-center whitespace-nowrap">
                                             Engr. Ogheneochuko Onabrakpor
                                         </p>
                                     </div>
 
-                                    <div className="mt-6 flex flex-col items-center text-center mr-20 ">
+                                    {/* <div className="mt-6 flex flex-col items-center text-center mr-20 ">
                                         <h3 className="text-sm lg:text-sm">
                                             <ShoshoLogo />
                                         </h3>
 
-                                        <p className="text-[#ecc62a] text-[8px] font-sora ">
-                                            A life fully lived • 1976 - 2026
-                                        </p>
-                                    </div>
+                                    </div> */}
                                 </div>
 
                             </div>

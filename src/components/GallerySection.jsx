@@ -3,7 +3,6 @@
 import { useState } from "react";
 
 // ================= IMAGES =================
-// IMPORT YOUR IMAGES HERE
 // YOUNG
 import young1 from "../assets/young1.jpeg";
 import young2 from "../assets/young2.jpeg";
@@ -22,6 +21,8 @@ import family2 from "../assets/fam2.jpeg";
 import family3 from "../assets/fam3.jpeg";
 import family4 from "../assets/fam4.jpeg";
 import family5 from "../assets/fam5.jpeg";
+import family6 from "../assets/family.jpeg"
+import family7 from "../assets/famil.jpeg"
 
 // OTHERS
 import other1 from "../assets/others.jpeg";
@@ -35,179 +36,160 @@ import other8 from "../assets/other8.jpeg";
 import other9 from "../assets/other9.jpeg";
 import other10 from "../assets/other10.jpeg";
 
-
-// ================= TABS =================
 const tabs = [
-    {
-        id: "young",
-        label: "Young Ochuko",
-        icon: "👶",
-        desc: "The early years — childhood and growing up",
-    },
-    {
-        id: "school",
-        label: "Ochuko Goes to School",
-        icon: "🎓",
-        desc: "School days, university life and academic journey",
-    },
-    {
-        id: "friends",
-        label: "Ochuko & Friends",
-        icon: "🤝",
-        desc: "Bonds and memories with friends",
-    },
-    {
-        id: "family",
-        label: "Ochuko & Family",
-        icon: "👨‍👩‍👦",
-        desc: "The people closest to his heart",
-    },
-    {
-        id: "others",
-        label: "Others",
-        icon: "✨",
-        desc: "More special moments",
-    },
+  {
+    id: "young",
+    label: "Young Ochuko",
+    icon: "👶",
+    desc: "The early years — childhood and growing up",
+  },
+  {
+    id: "school",
+    label: "Ochuko Goes to School",
+    icon: "🎓",
+    desc: "School days, university life and academic journey",
+  },
+  {
+    id: "friends",
+    label: "Ochuko & Friends",
+    icon: "🤝",
+    desc: "Bonds and memories with friends",
+  },
+  {
+    id: "family",
+    label: "Ochuko & Family",
+    icon: "👨‍👩‍👦",
+    desc: "The people closest to his heart",
+  },
+  {
+    id: "others",
+    label: "Others",
+    icon: "✨",
+    desc: "More special moments",
+  },
 ];
 
-// ================= PHOTOS =================
-// ADD ALL YOUR IMAGES INSIDE THEIR CATEGORY
-
 const photos = {
-    young: [
-        young1,
-        young2,
-    ],
-
-    school: [
-        school1,
-        school2,
-    ],
-
-    friends: [
-        friends1,
-        friends2,
-    ],
-
-    family: [
-        family1,
-        family2,
-        family3,
-        family4,
-        family5,
-    ],
-
-    others: [
-        other1,
-        other2,
-        other3,
-        other4,
-        other5,
-        other6,
-        other7,
-        other8,
-        other9,
-        other10,
-    ],
+  young: [young1, young2],
+  school: [school1, school2],
+  friends: [friends1, friends2],
+  family: [family1, family2, family3, family4, family5, family6, family7],
+  others: [
+    other1,
+    other2,
+    other3,
+    other4,
+    other5,
+    other6,
+    other7,
+    other8,
+    other9,
+    other10,
+  ],
 };
 
 const GallerySection = () => {
-    const [activeTab, setActiveTab] = useState("young");
+  const [activeTab, setActiveTab] = useState("young");
 
-    // CURRENT TAB
-    const currentTab = tabs.find(
-        (tab) => tab.id === activeTab
-    );
+  // FULL IMAGE VIEW
+  const [selectedImage, setSelectedImage] = useState(null);
 
-    return (
-        <div className="bg-[#f0e7c0]">
-            <section className="gallery-section">
+  const currentTab = tabs.find(
+    (tab) => tab.id === activeTab
+  );
 
-                {/* HEADER */}
-                <div className="text-center">
-                    <p className="gallery-label">
-                        A LIFE WELL LIVED
-                    </p>
+  return (
+    <div className="bg-[#f0e7c0]">
+      <section className="gallery-section">
 
-                    <h2 className="gallery-title">
-                        Photo Gallery
-                    </h2>
+        {/* HEADER */}
+        <div className="text-center">
+          <p className="gallery-label">
+            A LIFE WELL LIVED
+          </p>
 
-                    <p className="gallery-sub">
-                        Explore beautiful memories
-                    </p>
+          <h2 className="gallery-title">
+            Photo Gallery
+          </h2>
 
-                    <div className="gold-rule cen"></div>
-                </div>
+          <p className="gallery-sub">
+            Explore beautiful memories
+          </p>
 
-                {/* TABS */}
-                <div className="tabs-wrap">
-                    {tabs.map((tab) => (
-                        <button
-                            key={tab.id}
-                            onClick={() =>
-                                setActiveTab(tab.id)
-                            }
-                            className={`tab-btn ${activeTab === tab.id
-                                    ? "active"
-                                    : ""
-                                }`}
-                        >
-                            {tab.label}
-
-                            <span className="tab-count">
-                                {photos[tab.id].length}
-                            </span>
-                        </button>
-                    ))}
-                </div>
-
-                {/* DESCRIPTION */}
-                <div className="text-center mb-10">
-                    <p className="gallery-desc">
-                        <span className="gallery-emoji">
-                            {currentTab.icon}
-                        </span>
-
-                        {currentTab.desc}
-                    </p>
-                </div>
-
-                {/* GALLERY */}
-                <div className="photos-grid">
-
-                    {/* EMPTY STATE */}
-                    {photos[activeTab].length === 0 && (
-                        <div className="empty-state">
-                            <div className="ei">
-                                {currentTab.icon}
-                            </div>
-
-                            <p>
-                                No photos available yet
-                            </p>
-                        </div>
-                    )}
-
-                    {/* PHOTOS */}
-                    {photos[activeTab].map(
-                        (photo, index) => (
-                            <div
-                                key={index}
-                                className="photo-card"
-                            >
-                                <img
-                                    src={photo}
-                                    alt={`Gallery ${index}`}
-                                />
-                            </div>
-                        )
-                    )}
-
-                </div>
-            </section>
+          <div className="gold-rule cen"></div>
         </div>
-    );
+
+        {/* TABS */}
+        <div className="tabs-wrap">
+          {tabs.map((tab) => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`tab-btn ${
+                activeTab === tab.id
+                  ? "active"
+                  : ""
+              }`}
+            >
+              {tab.label}
+
+              <span className="tab-count">
+                {photos[tab.id].length}
+              </span>
+            </button>
+          ))}
+        </div>
+
+        {/* DESCRIPTION */}
+        <div className="text-center mb-10">
+          <p className="gallery-desc">
+            <span className="gallery-emoji">
+              {currentTab.icon}
+            </span>
+
+            {currentTab.desc}
+          </p>
+        </div>
+
+        {/* GALLERY */}
+        <div className="photos-grid">
+
+          {photos[activeTab].map(
+            (photo, index) => (
+              <div
+                key={index}
+                className="photo-card"
+                onClick={() =>
+                  setSelectedImage(photo)
+                }
+              >
+                <img
+                  src={photo}
+                  alt={`Gallery ${index}`}
+                />
+              </div>
+            )
+          )}
+        </div>
+
+        {/* LIGHTBOX */}
+        {selectedImage && (
+          <div
+            className="lightbox"
+            onClick={() =>
+              setSelectedImage(null)
+            }
+          >
+            <img
+              src={selectedImage}
+              alt="Full view"
+              className="lightbox-img"
+            />
+          </div>
+        )}
+      </section>
+    </div>
+  );
 };
 
 export default GallerySection;
