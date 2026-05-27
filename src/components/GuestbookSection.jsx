@@ -38,7 +38,7 @@ export default function GuestbookSection() {
       name: "Ajero Alumni, Class of '93",
       relation: "Classmate / Alumni",
       message:
-        "We remember the quiet determination that set you apart even back in school. Today that same resolved has taken you around the world and back. We are proud to call you ours. Happy 50th, Shosho!",
+        "We remember the quiet determination that set you apart even back in school. Today, that same resolved has taken you around the world and back. We are proud to call you ours. Happy 50th, Shosho!",
       time: "May,26th 2026",
     },
   ];
