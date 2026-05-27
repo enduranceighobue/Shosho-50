@@ -36,18 +36,34 @@ const tabs = [
 ];
 
 const photos = {
-    young: ["/gallery/young1.jpeg", "/gallery/young2.jpeg"],
+    young: ["/gallery/young1.jpeg", "/gallery/young2.jpeg", "/gallery/newp.jpeg", "/gallery/portrait.jpeg"],
     school: ["/gallery/school1.jpeg", "/gallery/school2.jpeg", "/gallery/fam4.jpeg",],
     friends: ["/gallery/friends1.jpeg", "/gallery/friends2.jpeg"],
-    family: ["/gallery/fam1.jpeg", "/gallery/fam2.jpeg", "/gallery/fam3.jpeg", "/gallery/fam5.jpeg", "/gallery/fam6.jpeg", "/gallery/family.jpeg", "/gallery/fam11.jpeg"],
+    family: ["/gallery/fam1.jpeg", "/gallery/fam2.jpeg", "/gallery/fam3.jpeg", "/gallery/fam5.jpeg", "/gallery/fam6.jpeg", "/gallery/fa.jpeg", "/gallery/family.jpeg", "/gallery/fam11.jpeg"],
     others: [
+        "/gallery/_AV_3785.jpg.jpeg",
         "/gallery/other3.jpeg",
         "/gallery/other6.jpeg",
         "/gallery/other7.jpeg",
         "/gallery/other10.jpeg",
+        "/gallery/_AV_3869.jpg.jpeg",
+        "/gallery/_AV_3966.jpg.jpeg",
+        "/gallery/_AV_3672.jpg.jpeg",
+        "/gallery/others2.jpeg",
+        "/gallery/_AV_3736.jpg.jpeg",
+        "/gallery/_AV_3867.jpg.jpeg",
+        "/gallery/others.jpeg",
+        "/gallery/other5.jpeg",
+        "/gallery/_AV_3966.jpg.jpeg",
+        "/gallery/_AV_3918.jpg.jpeg",
+        "/gallery/_AV_3975.jpg.jpeg",
+        "/gallery/_AV_3776.jpg.jpeg",
+        "/gallery/_AV_3759.jpg.jpeg",
+        "/gallery/_AV_3731.jpg.jpeg",
+        "/gallery/_AV_3736.jpg.jpeg",
 
     ],
-};
+}
 
 const GallerySection = () => {
     const [activeTab, setActiveTab] = useState("young");
