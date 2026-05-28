@@ -506,6 +506,186 @@
   }
 }
 
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+/* PAGINATION */
+.pagination {
+  margin-top: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 0.7rem;
+}
+
+.page-btn,
+.page-number {
+  min-width: 42px;
+  height: 42px;
+
+  border-radius: 999px;
+  border: none;
+
+  background: #fff;
+  color: #111;
+
+  cursor: pointer;
+  transition: 0.25s ease;
+
+  font-size: 0.9rem;
+}
+
+.page-btn:hover,
+.page-number:hover {
+  background: #c9a84c;
+  color: #fff;
+}
+
+.active-page {
+  background: #c9a84c;
+  color: #fff;
+}
+
+.page-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* LIGHTBOX */
+.lightbox {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.94);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 9999;
+
+  padding: 2rem;
+}
+
+.lightbox-img {
+  max-width: 92%;
+  max-height: 92vh;
+
+  object-fit: contain;
+  border-radius: 14px;
+
+  animation: zoomIn 0.25s ease;
+}
+
+/* NAVIGATION */
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+  border: none;
+
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: 0.25s ease;
+}
+
+.nav-btn:hover {
+  background: #c9a84c;
+}
+
+.left {
+  left: 25px;
+}
+
+.right {
+  right: 25px;
+}
+
+/* CLOSE */
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+  border: none;
+
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: 0.25s ease;
+}
+
+.close-btn:hover {
+  background: #c9a84c;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* TABLET */
+@media (max-width: 900px) {
+  .photos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .photos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-btn {
+    width: 48px;
+    height: 48px;
+  }
+
+  .left {
+    left: 10px;
+  }
+
+  .right {
+    right: 10px;
+  }
+}
+
 .timeline-section {
   position: relative;
   z-index: 1;

@@ -126,7 +126,7 @@ export default function Hero() {
                                     <img
                                         src={prt1}
                                         alt="Portrait"
-                                        className="relative w-[170px] sm:w-[210px] lg:w-[270px] h-[250px] lg:h-[300px] object-cover mr-20  border-2 border-[#ecc62a]/40 shadow-2xl"
+                                        className="relative w-[170px] sm:w-[210px] lg:w-[350px] h-[370px] lg:h-[400px] object-cover mr-20  border-2 border-[#ecc62a]/40 shadow-2xl"
                                     />
                                     {/* NAME INSIDE PORTRAIT */}
                                     <div className="absolute bottom-0 left-2/5 -translate-x-1/2 bg-[#b18f08] px-3 py-1">
