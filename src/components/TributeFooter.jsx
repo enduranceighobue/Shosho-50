@@ -14,7 +14,7 @@ export default function TributeFooter() {
 
       {/* NAME + YEARS */}
       <p className="footer-sub">
-        Engr Ogheneochuko Onobrakpor · 1976 – 2026
+        Engr Ogheneochuko Onobrakpor
       </p>
 
       {/* MESSAGE */}
@@ -29,7 +29,7 @@ export default function TributeFooter() {
           color: "#c59f1c",
         }}
       >
-        From Ajegunle to the world — a life lived with courage,
+        From Ajegunle to the world — a life of courage,
         purpose and gold.
       </h6>
 

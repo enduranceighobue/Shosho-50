@@ -144,7 +144,7 @@ const Fire = () => {
         </h4>
 
         <p className="uppercase tracking-[0.3em] text-[#c89b3c] text-[10px] md:text-xs mt-2">
-          1976 – 2026 • A Life of Courage and Purpose
+           A Life of Courage and Purpose
         </p>
       </div>
     </section>
