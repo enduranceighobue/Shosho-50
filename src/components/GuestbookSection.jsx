@@ -7,6 +7,8 @@ export default function GuestbookSection() {
     message: "",
   });
 
+  const [showAll, setShowAll] = useState(false);
+
   // DEFAULT TRIBUTES
   const defaultTributes = [
     {
@@ -25,7 +27,7 @@ export default function GuestbookSection() {
         "Ochuko, fifty years of watching you grow from that fourth child on Nosamu street to the man you are today filled our minds with immeasurable pride. You have always made us believe that where you start is just the begining. Happy Golden Jubilee!",
       time: "May,22nd 2026",
     },
-     {
+    {
       id: 3,
       name: "Wilmerconnect, Ajegunle.",
       relation: "Community Member",
@@ -33,7 +35,7 @@ export default function GuestbookSection() {
         "You never forget where you came from, even as your career soared, you kept giving back to Ajegunle - the street that shaped you. You are a true son of the soil. Congratulations on 50 years of inspiring greatness!",
       time: "May,26th 2026",
     },
-     {
+    {
       id: 4,
       name: "Ajero Alumni, Class of '93",
       relation: "Classmate / Alumni",
@@ -46,13 +48,13 @@ export default function GuestbookSection() {
   // LOAD FROM LOCAL STORAGE
   const [tributes, setTributes] = useState(defaultTributes);
 
-useEffect(() => {
-  const savedTributes = localStorage.getItem("tributes");
+  useEffect(() => {
+    const savedTributes = localStorage.getItem("tributes");
 
-  if (savedTributes) {
-    setTributes(JSON.parse(savedTributes));
-  }
-}, []);
+    if (savedTributes) {
+      setTributes(JSON.parse(savedTributes));
+    }
+  }, []);
 
   // SAVE TO LOCAL STORAGE WHENEVER TRIBUTES CHANGE
   useEffect(() => {
@@ -91,11 +93,15 @@ useEffect(() => {
   };
 
   const getCurrentTime = () => {
-  return new Date().toLocaleString("en-NG", {
-    dateStyle: "medium",
-    timeStyle: "short",
-  });
-};
+    return new Date().toLocaleString("en-NG", {
+      dateStyle: "medium",
+      timeStyle: "short",
+    });
+  };
+
+  const displayedTributes = showAll
+    ? tributes
+    : tributes.slice(0, 4);
 
   return (
     <div>
@@ -205,7 +211,7 @@ useEffect(() => {
         <div className="tributes-scroll-wrap">
           <div className="tributes-track">
 
-            {tributes.map((tribute) => (
+            {displayedTributes.map((tribute) => (
               <div className="tribute-card" key={tribute.id}>
 
                 {/* TOP */}
@@ -248,6 +254,19 @@ useEffect(() => {
           </div>
         </div>
 
+        {tributes.length > 4 && (
+          <div className="show-more-wrap">
+            <button
+              className="show-more-btn"
+              onClick={() => setShowAll(!showAll)}
+            >
+              {showAll
+                ? "Show Less Messages"
+                : `Show More Messages (${tributes.length - 4})`}
+            </button>
+          </div>
+        )}
+        
         {/* HINT */}
         <div className="scroll-hint">
           Scroll to read more tributes

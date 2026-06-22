@@ -45,7 +45,6 @@ const photos = {
         "/gallery/young1.jpeg",
         "/gallery/young2.jpeg",
         "/gallery/newp.jpeg",
-        "/gallery/portrait.jpeg",
     ],
 
     school: [
