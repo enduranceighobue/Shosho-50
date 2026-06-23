@@ -60,7 +60,7 @@ const { tributes } = useOutletContext();
           <div className="w-16 h-[1px] bg-[#c9a84c] mx-auto mb-8" />
 
           {/* Deep clean typography view for ultra long messages */}
-          <p className="text-gray-800 text-base md:text-lg italic leading-loose text-left font-serif px-2 whitespace-pre-line">
+          <p className="text-gray-800 text-base md:text-lg italic  text-left font-serif px-2 whitespace-pre-line">
             "{tribute.message}"
           </p>
 
