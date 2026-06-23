@@ -243,6 +243,8 @@ export default function GuestbookSection() {
                     <option value="Friend">Friend</option>
                     <option value="Colleague">Colleague</option>
                     <option value="Other">Other</option>
+                    <option value="Classmate / Alumni">Classmate / Alumni</option>
+
                   </select>
                 </div>
               </div>
