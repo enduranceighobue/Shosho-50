@@ -380,7 +380,26 @@ May the years ahead be filled with greater achievements, abundant blessings, and
   message: "I call him my great in-law for many reasons because of his humane nature. 'Sho-Sho Lapa,' as we call him, is not just a childhood friend but also a brother in need and indeed. I have known him for over 40 years and counting, as we grew up together in the same neighbourhood, Wilmer in Ajegunle to be precise. He is very intelligent, industrious, bold, unassuming, and caring to a fault. He sees your problems, no matter how gigantic, as his own and would go to any length to find a solution. One thing my 'great in-law' will never do is betray or backstab you. He always wants to lend a helping hand, no matter how inconvenient it may be for him. As he marks this Golden Jubilee, I pray that God's countenance will continue to shine upon him and his family. Happy Birthday, my 'great in-law.' Only you na full community. As you dey use hand do, na so you go dey use waist do ooo."
 },
 
+{
+  id: 21,
+  name: "Helen Davy Steven",
+  relation: "Friend",
+  message: "Ochuko is a man of humility; in fact, he is humility personified. For a man of his stature, I have never seen such humility. He is a generous giver who loves to share his resources with those around him. I admire the way he carries himself. Ochuko, remain blessed for life. I am proud of you."
+},
 
+{
+  id: 22,
+  name: "Favour George (FG)",
+  relation: "Friend",
+  message: "Today, I join family, friends, and loved ones to celebrate a truly remarkable man, my very good friend, Ogheneochuku Onobrakpor, as he marks his 50th birthday. Ogheneochuku, you are not just a friend to me; you are one of the people God used to encourage, support, and strengthen me at a very important stage of my life. I will never forget your kindness and generosity when you supported my tuition fees at the University of Lagos while I was pursuing my BSc. That act of love meant more to me than words can fully express. It was not just financial support; it was a reminder that someone believed in me, saw potential in me, and wanted me to succeed.\n\nBeyond the support you gave, your words have stayed with me over the years. You would always remind me, 'You are capable of achieving anything you set your mind on, regardless of where you are coming from.' Those words became more than encouragement; they became a source of strength, confidence, and hope. Whenever I reflect on my journey, I remember your voice, your belief in me, and the impact you made in my life.\n\nAs you celebrate this golden milestone, I want you to know that your kindness has not been forgotten. Your friendship, encouragement, and support have left a lasting mark on my heart. You are a man with a generous spirit, a kind heart, and a beautiful way of lifting others up.\n\nMy prayer for you today is that God will bless you beyond measure. May this new chapter of your life be filled with sound health, peace, joy, divine favour, long life, and greater fulfilment. May the same kindness you have shown to others return to you in countless ways.\n\nHappy 50th Birthday, dear Ogheneochuku. You are deeply appreciated, sincerely loved, and truly worth celebrating.\n\nWith heartfelt gratitude and warm wishes."
+},
+
+{
+  id: 23,
+  name: "Atafo Godwin",
+  relation: "Friend",
+  message: "Ochuko Onobrakpor, popularly known as 'Sho Sho,' has been my childhood friend since we were about 4 or 5 years old. We lived in the same compound on Silver Street, Olodi Apapa, Lagos. The nickname 'Sho Sho' was given to him by me because that was what my father and his friends called his father back then. In a way, the name was inherited from his father.\n\nAs you can see, we have been friends—indeed, brothers—for over 40 years, and our friendship continues to grow stronger with each passing year.\n\nSho Sho, I wish you God's abundant blessings and favour as you celebrate your 50th birthday. May He continue to guide, protect, and prosper you in all that you do. In Jesus' Name, Amen."
+}
   ];
 
   const [tributes, setTributes] = useState(defaultTributes);
