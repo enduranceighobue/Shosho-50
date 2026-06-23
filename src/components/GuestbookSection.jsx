@@ -284,7 +284,7 @@ export default function GuestbookSection() {
               setShowTributesModal(true);
             }}
           >
-            See All Messages ({tributes.length})
+            View all Tributes ({tributes.length})
           </button>
         </div>
 
