@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-
+import { useOutletContext } from "react-router-dom";
 
 export default function TributeDetails() {
   const { id } = useParams();
@@ -13,7 +13,8 @@ export default function TributeDetails() {
   });
 }, []);
 
-  const tributes = JSON.parse(localStorage.getItem("tributes")) || [];
+
+const { tributes } = useOutletContext();
   const tribute = tributes.find((t) => t.id === Number(id));
 
   if (!tribute) {

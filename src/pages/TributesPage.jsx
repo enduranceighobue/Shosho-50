@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useOutletContext } from "react-router-dom";
 
 export default function TributesPage() {
     const navigate = useNavigate();
@@ -17,7 +17,7 @@ export default function TributesPage() {
         });
     }, []);
 
-    const tributes = JSON.parse(localStorage.getItem("tributes")) || [];
+const { tributes } = useOutletContext();
 
     // Dynamically filters based on name, relationship, or the message itself
     const filteredTributes = tributes.filter((t) =>

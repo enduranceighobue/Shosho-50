@@ -11,6 +11,7 @@ import Legacy from "../components/Legacy";
 import QuotesSection from "../components/QuotesSection";
 import GuestbookSection from "../components/GuestbookSection";
 import TributeFooter from "../components/TributeFooter";
+import { useOutletContext } from "react-router-dom";
 
 
 
@@ -19,6 +20,7 @@ import TributeFooter from "../components/TributeFooter";
 export default function Home() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
+    const { tributes, setTributes } = useOutletContext();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -238,7 +240,7 @@ export default function Home() {
             </div>
 
             <div id="guestbook">
-                <GuestbookSection />
+                <GuestbookSection tributes={tributes} setTributes={setTributes} />
             </div>
 
             <TributeFooter />
