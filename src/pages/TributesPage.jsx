@@ -41,7 +41,7 @@ const { tributes } = useOutletContext();
                 <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
                     <button
                         onClick={() => navigate("/")}
-                        className="px-5 py-2 bg-[#675012] text-white rounded-full text-xs font-semibold tracking-wider uppercase transition hover:bg-[#523f0e]"
+                        className="px-5 py-2 bg-[#675012] cursor-pointer text-white rounded-full text-xs font-semibold tracking-wider uppercase transition hover:bg-[#523f0e]"
                     >
                         ←  Home
                     </button>

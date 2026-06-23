@@ -330,6 +330,57 @@ Happy 50th Birthday, Sir.
 May the years ahead be filled with greater achievements, abundant blessings, and cherished moments with family, friends, and colleagues.`,
   time: "Corporate Tribute"
 },
+
+{
+  id: 14,
+  name: "Paul Williams",
+  relation: "Other",
+  message: "Dear Engr Ochuko Onobrakpo, On your birthday, may the Lord bless you and keep you; the Lord make his face to shine more upon you and be more gracious to you; the Lord lift his countenance more upon you and multiply your peace to be still in the midst of trouble. Happy Birthday Shosho!!!"
+},
+
+ {
+  id: 15,
+  name: "Noble Lady, Queen Chidinma Ezediniru",
+  relation: "Other",
+  message: "Today, I celebrate a brilliantly gifted, hardworking, yet wonderfully humble and humorous rare gem. Your 50th birthday is not just a milestone, but a celebration of a life filled with impact, excellence, and inspiration. Your life remains a shining example of diligence, vision, and service to humanity. Your commitment to empowering others is truly remarkable and admirable. As you mark this golden age, may God bless you with sound health, greater wisdom, overflowing joy, and continued success in all your endeavours. May the years ahead bring you peace and fulfillment. Happy birthday Engr. Ochuku, wishing you the very best today and always."
+},
+
+{
+  id: 16,
+  name: "Obi Ifeyinwa",
+  relation: "Friend",
+  message: "Happy 50th Birthday, Engr. Ochuko! Wishing you continued success, good health, happiness, and many more years of impactful achievements. May this new chapter bring greater fulfillment and abundant blessings. Have a wonderful celebration."
+},
+
+{
+  id: 17,
+  name: "Ifeanyi Ejikeme",
+  relation: "Friend",
+  message: "Happy 50th Birthday, Engr. Ochuko! May this special milestone usher in greater achievements, good health, peace, and abundant blessings. Wishing you many more years of success, happiness, and fulfillment. Have a wonderful celebration."
+},
+
+{
+  id: 18,
+  name: "From Odili Uchenna Jennifer",
+  relation: "Colleague",
+  message: "Wishing you a day as inspiring as your vision and a year filled with success and joy. Thanks for being a great boss and mentor. Cheers 🥂 Sir!"
+},
+
+{
+  id: 19,
+  name: "Raymond Lawani",
+  relation: "Other",
+  message: "Today, we celebrate Engr. Ochuko at 50—a remarkable milestone in a life defined by excellence and purpose. As a Director at Netco, a leading oil and gas services company in Nigeria, you have demonstrated outstanding leadership, professionalism, and dedication to national development. Your contributions to the industry and your commitment to excellence continue to inspire many. Beyond your achievements, your humility, integrity, and strength of character set you apart. You are a pillar to your family, a trusted leader to your colleagues, and a role model to all who know you. Happy 50th Birthday, Engr. Ochuko. May the years ahead bring you continued success, good health, and lasting fulfillment. Amen. From, Raymond Lawani."
+},
+
+{
+  id: 20,
+  name: "Charles Adelomo",
+  relation: "Other",
+  message: "I call him my great in-law for many reasons because of his humane nature. 'Sho-Sho Lapa,' as we call him, is not just a childhood friend but also a brother in need and indeed. I have known him for over 40 years and counting, as we grew up together in the same neighbourhood, Wilmer in Ajegunle to be precise. He is very intelligent, industrious, bold, unassuming, and caring to a fault. He sees your problems, no matter how gigantic, as his own and would go to any length to find a solution. One thing my 'great in-law' will never do is betray or backstab you. He always wants to lend a helping hand, no matter how inconvenient it may be for him. As he marks this Golden Jubilee, I pray that God's countenance will continue to shine upon him and his family. Happy Birthday, my 'great in-law.' Only you na full community. As you dey use hand do, na so you go dey use waist do ooo."
+},
+
+
   ];
 
   const [tributes, setTributes] = useState(defaultTributes);

@@ -34,7 +34,7 @@ const { tributes } = useOutletContext();
         
         <button
           onClick={() => navigate("/tributes")}
-          className="mb-6 inline-flex items-center gap-2 text-sm font-semibold text-[#675012] hover:text-[#4d3b0d] transition"
+          className="mb-6 inline-flex items-center cursor-pointer gap-2 text-sm font-semibold text-[#675012] hover:text-[#4d3b0d] transition"
         >
           ← Back to All Tributes
         </button>
