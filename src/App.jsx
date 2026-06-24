@@ -929,7 +929,92 @@ Interestingly, those professional interactions blossomed into an unbreakable fam
 Dear Ogheneochuko, may God richly bless your new age. May He grant you continued good health, divine favor, wisdom, peace, and greater accomplishments in all your endeavors. May the years ahead be even more rewarding and fulfilling than those behind you.
 
 Happy Golden Jubilee!`
+},
+
+{
+  id: 77,
+  name: "Mrs. Evelyn Emmanuel Osaronwaji",
+  relation: "Friend",
+  message: `Happy Glorious Birthday, Mr. Ochuko!
+
+You are fifty and fabulous!
+
+Wishing you a brilliant year ahead, filled with joy, success, good health, and abundant blessings. I always recall the wonderful things my husband says about you, and I will never forget your magnanimity and kindness toward my family.
+
+My heartfelt prayer is that God will continually bless you and your family, guide your steps, prosper the work of your hands, and surround you with His favor and protection always.
+
+Have a truly memorable Golden Jubilee celebration, and may the years ahead be even more rewarding and fulfilling.
+
+Happy 50th Birthday!`
+},
+
+{
+  id: 78,
+  name: "Adiohwo Fredrick",
+  relation: "Other",
+  message: `Happy 50th Birthday!
+
+Today, we celebrate not just your age, but a life of impact, strength, and true leadership.
+
+You have been a constant source of wisdom, loyalty, and inspiration through every season. Your character, dedication, and commitment to those around you have left a lasting impression on many lives.
+
+At 50, you are not slowing down—you are stepping into an even greater chapter filled with purpose, fulfillment, and new opportunities. The experiences of the past have prepared you for even greater accomplishments ahead.
+
+Your story is still being written, and it is already a masterpiece.
+
+Wishing you continued success, good health, happiness, and God's abundant blessings in the years to come.
+
+Happy Golden Jubilee!`
+},
+
+{
+  id: 79,
+  name: "Mrs. Evelyn Iseh (Mama Joy)",
+  relation: "Friend",
+  message: `Congratulations, my son, on your Golden Jubilee celebration!
+
+You have always been a hardworking, diligent, and humble man, both within the family and in the world around you. Your dedication, integrity, and kind-hearted nature have earned you the love and respect of many.
+
+As you celebrate this remarkable milestone, may all your aspirations and dreams become glorious realities in Jesus' name.
+
+I pray that God grants you longevity in good health, a peaceful mind, abundant wealth, and unending joy. May He continue to guide, protect, and bless you in all your endeavors.
+
+Happy 50th Birthday, and may your years ahead be even more fruitful and fulfilling.`
+},
+
+{
+  id: 80,
+  name: "Williams, A. I. (Mrs.)",
+  relation: "Friend",
+  message: `You are a true friend, a brother, and a classmate who has stood by many people, offering comfort, support, and inspiration through life's trials and challenges.
+
+Celebrating you is never a mistake—it is always a joyful occasion. Your life is filled with kindness, and your actions reflect the character of a devoted, dependable, and reliable person. You continue to bring light and warmth to the hearts of many through your generosity and genuine care for others.
+
+As you mark this special milestone, may your days be filled with happiness, good health, peace, and continued success.
+
+Cheers to long life and prosperity!
+
+Happy Birthday, Engr. Ochuko. 🎉🎉`
+},
+
+{
+  id: 81,
+  name: "Amoge Ihuoma (Your Sister)",
+  relation: "Friend",
+  message: `Happy 50th Birthday, my Brother, as I fondly call you!
+
+Working with you on our past projects has always been both pleasant and enlightening. Your commitment to ensuring that things are done properly, coupled with your ability to recognize and appreciate individual efforts, is truly commendable and worthy of emulation.
+
+I pray that the Lord will continue to keep and bless you. May His face continually shine upon you, guide your steps, and make your path straight, peaceful, and prosperous in this year and in the years ahead, in Jesus' name. Amen.
+
+I also look forward to many more successful collaborations and projects between Netcore and Berean in the near future.
+
+Cheers to more beautiful years, greater achievements, and abundant blessings! 🥂
+
+Happy Golden Jubilee!`
 }
+
+
 
   ];
 
