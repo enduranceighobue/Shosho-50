@@ -534,7 +534,61 @@ May the years ahead be filled with greater achievements, abundant blessings, and
   message: "Ochuko is truly a special person. I remember having a conversation about him with one of our classmates, Dr. Hakeem Olabinjo, and we both agreed on the same thing—Ochuko remains one of the most humble and respectful individuals we know. What is even more remarkable is that his financial success and accomplishments in life have not changed him in any way. He continues to relate freely with everyone, regardless of status or background, and treats people with genuine warmth and respect. One quality that truly sets him apart is his generosity. Time and again, I have heard from classmates and friends about how Ochuko has supported others financially, not simply by giving temporary help, but by empowering them with opportunities and resources that enable them to build sustainable futures for themselves. He believes in helping people own a net to fish rather than merely giving them fish to eat, and that speaks volumes about the kind of person he is. My dear friend, Ochuko Onobrakpor, fondly known as 'The Olorogun 1 of AIHS,' as you climb the fifth ladder today and celebrate this wonderful milestone of 50 years, I pray that God grants you a long, healthy, and fulfilling life. May your days on earth extend well into your 90s in good health, sound mind, marital bliss, and increasing prosperity. May your impact continue to grow, and may your generosity and kindness return to you in countless blessings. Happy 50th Birthday, my dear friend. Wishing you many more years of joy, peace, success, and divine favor in Jesus' name."
 },
 
+{
+  id: 43,
+  name: "Hon. Kareem Abubakar Sidiq ACA, ACTI",
+  relation: "Other",
+  message: "Happy 50th Birthday, Engineer Ochuko! 🎉 Today, we celebrate 50 remarkable years of wisdom, impact, excellence, and purposeful living. Your dedication to your profession, unwavering integrity, and commitment to uplifting others have created a legacy that will continue to inspire generations. The positive influence you have had on colleagues, friends, family, and the wider community speaks volumes about the kind of man you are. At 50, you are not simply marking another year—you are celebrating a lifetime of achievements, valuable experiences, meaningful relationships, and countless contributions that have left lasting impressions on those around you. You stand as a shining example of leadership, resilience, and service. As you enter this new decade, may it bring you robust health, greater happiness, deeper fulfillment, and continued success in every area of your life. May the projects you undertake bring you pride and satisfaction, and may your efforts continue to yield abundant rewards. May God bless you with peace of mind, strength, and many more years of impactful living. Cheers to a golden jubilee that is truly well-earned. Enjoy your special day to the fullest, Sir, and may the years ahead be even more rewarding than those behind you. Warmest regards."
+},
 
+{
+  id: 44,
+  name: "Lady Chinyere Anujulu (Amadi)",
+  relation: "Friend",
+  message: "My Past President Emeritus, happy 50th birthday, my dear friend. Half a century of laughter, strength, and unforgettable memories—and somehow, the best of you is still unfolding. I am grateful for every moment we have shared and for the wonderful friendship that has stood the test of time. Your wisdom, kindness, and inspiring spirit continue to touch the lives of everyone around you. As you celebrate this golden milestone, may your days be filled with love, joy, good health, peace, and endless fulfillment. May the years ahead bring even greater blessings, cherished memories, and abundant happiness. Cheers to you—timeless, inspiring, and deeply loved. Happy 50th Birthday once again, my dear friend. With warmest love and best wishes. 💛"
+},
+
+{
+  id: 45,
+  name: "Olorogun and Mrs. Lawrence John O. Iriferigoma",
+  relation: "Other",
+  message: "A Tribute to Engr. Ogheneochuko Onobrakpor at 50. Congratulations on your new age, our dearly beloved Ochuko. Fifty years is not just a milestone—it is a testimony, and your journey is one of purpose, diligence, excellence, and lasting impact. Over the years, you have built more than structures; you have built a legacy defined by integrity, professionalism, and service. In engineering, your work reflects precision and excellence. In leadership, you exemplify wisdom, humility, and vision. In the community, you make a difference through generosity and selfless service, often without seeking recognition or the spotlight. At 50, you stand as living proof that consistency, hard work, and faith yield remarkable results. The young man who once dreamed big has become a man many look up to for guidance, solutions, encouragement, and inspiration. Yet through every achievement and accomplishment, you have remained grounded, approachable, and committed to uplifting those around you. Today, we celebrate not only your titles and achievements but also the character behind them—the discipline, resilience, perseverance, quiet strength, and unwavering faith that have carried you through life's journey. Your life reminds us that true success is measured not merely by accomplishments, but by the lives touched, the values upheld, and the standards set for those who follow behind. As you celebrate this golden milestone, we pray that God grants you continued good health, greater influence, peace of mind, and abundant fulfillment. May the years ahead bring even greater opportunities, deeper joy, and lasting rewards for all your labor. Here's to 50 years of remarkable impact and to many more years of purpose, prosperity, and meaningful service. Happy 50th Birthday, Engr. Ogheneochuko Onobrakpor. With lots of love, Olorogun and Mrs. Lawrence John O. Iriferigoma."
+},
+
+{
+  id: 46,
+  name: "Mrs. Gold C. Nwaukwa",
+  relation: "Other",
+  message: "Warmest birthday wishes to Engineer Ochuko Onobrakpor on the celebration of your Golden Jubilee. As you mark this significant milestone of 50 years, we celebrate a life defined by dedication, excellence, and meaningful contributions. Your remarkable achievements and impact within the oil and gas industry stand as a testament to your expertise, professionalism, and unwavering commitment to excellence. Through years of hard work and perseverance, you have earned the respect and admiration of colleagues, associates, and all who have had the privilege of working with you. As you begin this new chapter, may it bring even greater success, renewed strength, good health, peace of mind, and lasting fulfillment. May your experience continue to inspire others, and may your efforts yield even greater accomplishments in the years ahead. Here's to many more years of excellence, achievement, happiness, and God's abundant blessings. Happy 50th Birthday, and may your Golden Jubilee be filled with joy, gratitude, and beautiful memories. Happy Blessed Birthday! 🎁"
+},
+
+{
+  id: 47,
+  name: "Anayochukwu Anamege-Joshua",
+  relation: "Friend",
+  message: "As millions of people from different walks of life gather to celebrate your 50th birthday, Engr. Ochuko Onobrakpor, it stands as a powerful testament to a life built on hard work, resilience, purpose, and genuine impact. Your journey has been defined not only by professional achievements but also by the countless lives you have touched along the way. You have built more than structures—you have helped build people, values, opportunities, and lasting relationships. Your influence extends far beyond your profession, reaching into the hearts and lives of many who have had the privilege of knowing you. Today, time itself bears witness to the remarkable impact you have made through your generosity, leadership, and unwavering commitment to others. As you celebrate this golden milestone, may your heart be filled with deep joy, peace, gratitude, and fulfillment. May the years ahead bring even greater accomplishments, abundant blessings, good health, and continued opportunities to inspire those around you. Happy 50th Birthday, Sir. May your legacy continue to grow and your best years still lie ahead."
+},
+
+{
+  id: 48,
+  name: "Obiageli Eki-Allen",
+  relation: "Friend",
+  message: "To a Remarkable Soul, today we celebrate not just the passing of time, but the incredible person you are. Your presence in the lives of so many is a precious gift, and your dedication to excellence, kindness, and genuine care for others leaves a lasting impression on everyone you encounter. As you mark this special milestone of 50 years, I celebrate the impact you have made, the relationships you have nurtured, and the many lives you have touched through your generosity and character. My wishes for you are simple yet heartfelt. May the coming year bring continued growth and new opportunities to shine, enabling you to reach even greater heights in both your professional and personal endeavors. May your days be filled with abundant joy, laughter, and the same warmth and positivity that you so freely share with others. May you experience peace in every season, prosperity in all your endeavors, good health, and the fulfillment of your heart’s deepest desires. As you begin this exciting new chapter, may it be filled with memorable moments, meaningful achievements, and countless reasons to celebrate. Happy 50th Birthday to a truly remarkable soul. Wishing you many more years of happiness, success, and God's abundant blessings."
+},
+
+{
+  id: 49,
+  name: "Omos Okpere",
+  relation: "Friend",
+  message: "My dear friend and brother, Ochuko Onobrakpor, today we celebrate fifty remarkable years of grace, strength, resilience, and unforgettable memories. This milestone is a testament to God's faithfulness, your perseverance, and the positive impact you have made in the lives of so many people. As you step into this new chapter of life's journey, may God Almighty continue to preserve you in excellent health, surround you with His favor, and grant you the wisdom and strength to enjoy every blessing that lies ahead. May your days be filled with peace, happiness, fulfillment, and the joy of living life graciously. I pray that you experience the blessing of being surrounded by your children, grandchildren, and great-grandchildren, witnessing the fruits of your labor and the legacy you have built through love, dedication, and service. May your home continually be filled with laughter, unity, and abundant joy. Welcome to many more blissful and prosperous years ahead. Congratulations on this golden milestone, and Happy 50th Birthday! 🎉"
+},
+
+{
+  id: 50,
+  name: "ChiChi Police (AIHS 93)",
+  relation: "Other",
+  message: "On this special day, as you celebrate your 50th birthday, I want to take a moment to acknowledge the incredible impact you have made through your philanthropic endeavors and your unwavering commitment to helping others. Your business acumen, leadership qualities, and genuine desire to uplift people continue to inspire everyone around you. You have consistently demonstrated that true success is not only measured by personal achievements but also by the positive difference made in the lives of others. Your generosity, compassion, and willingness to support those in need have touched countless lives and created opportunities for many. As you celebrate this golden milestone, may this new year of your life bring even more opportunities to pursue your passion for serving others and making a meaningful impact in the world. May your efforts continue to bear lasting fruit, and may you experience greater joy, fulfillment, prosperity, and success in all your endeavors. Wishing you a year filled with happiness, good health, peace of mind, and the fulfillment of your heartfelt dreams and aspirations. Here's to many more years of purpose, influence, and positive impact. Happy 50th Birthday, Ochuko! And by the way, you're definitely the youngest 50-year-old I know! 🎉"
+}
   ];
 
   const [tributes, setTributes] = useState(defaultTributes);
