@@ -776,7 +776,161 @@ Happy Birthday, my brother.`
   message: `My name is Enetie Sunday.
 
 My tribute to Ochuko is based on his humble lifestyle irrespective of his wealth and how generous he is to those around him. It shows in how he does not neglect his childhood friends.`
+},
+{
+  id: 67,
+  name: "Dr. Ufuoma Onobrakpor",
+  relation: "Family",
+  message: `You are more than a brother to me; you are my second Dad.
+
+From you, I learnt what it truly means to be a man. You showed me that a man can be kind, caring, supportive, disciplined, and hard-working; that he can be a provider, a visionary, compassionate, and a strong leader. But above all, you showed me that a man can love deeply.
+
+I have told you before, and I will say it again: "Love is not just what you do; love is who you are." Thank you for being love personified to us, the Onobrakpors. ❤️
+
+To my big brother and Daddy, Happy 50th Birthday. May God continue to bless you, protect you, and keep you, in Jesus' name. Amen.`
+},
+
+{
+  id: 68,
+  name: "Temitope Adeyele",
+  relation: "Other",
+  message: `Happy 50th Birthday, Shosho,
+
+Wishing you a golden celebration filled with joy, good health, and God’s abundant blessings. May this milestone mark the beginning of even greater achievements, deeper peace, and unending favor in your life.
+
+You’ve come this far by grace; may the years ahead be even more fulfilling, surrounded by love, laughter, and purpose. Welcome to the 5th floor! Cheers to 50 amazing years and many more to come in good health and God’s abundant blessings.
+
+LLNP.`
+},
+
+{
+  id: 69,
+  name: "Alexander Tietie",
+  relation: "Other",
+  message: `Happy 50th Birthday to an incredible brother, a loyal friend, and an inspiring mentor!
+
+Fifty looks amazing on you. I am blessed to have shared the early years with you as family, enjoyed countless adventures with you as a friend, and now have the privilege of learning from you as a leader.
+
+You bring wisdom to every table and heart to every office, proving that true success is measured by how much you care for the people around you. Here’s to 50 years of brilliance and to the best chapter yet.
+
+Cheers!`
+},
+
+{
+  id: 70,
+  name: "Juliana Oloyede",
+  relation: "Friend",
+  message: `Shosho la pa (in my children's voices 😁),
+
+You're not just my friend; you're my brother, my family. You are a product of grace and hard work, and you've never forgotten the days of humble beginnings.
+
+I call you "Kingmaker" because that's exactly who you are. As you attain this golden age, may the Lord bless and keep you. May He cause His face to continually shine upon you. Like a tree planted by the rivers of water, you shall continue to bring forth good fruit in due season.
+
+Happy Golden Jubilee, Ogheneochuko Onobrakpor! You are loved and deeply appreciated. ❤️❤️❤️❤️`
+},
+{
+  id: 71,
+  name: "Ferguson Osimiri",
+  relation: "Friend",
+  message: `Looking back through the years, I have watched you grow into an amazing and amiable personality, consistently defined by forthrightness, hard work, and dedication in all that you set out to do.
+
+Your genuine desire to see those around you succeed cannot be overemphasized. The light and warmth you bring to every occasion with your smile are truly golden.
+
+Your love for family, friends, and even strangers knows no bounds. Your kindness and generosity are not acts; they are a true reflection of your soul and the man God has made you to be.
+
+Your kind is rare, and your impact transcends our shores.
+
+As you step into this golden era of your life, may the good Lord, who has been your pillar and shield—as your name, Ogheneochuko, signifies—continually exceed all your expectations, crown you with divine health and wisdom, fill you with peace and laughter, and satisfy you with every good thing He has in store for you.
+
+To an amiable and amazing friend and brother with a heart of gold, I say: Happy, Happy Golden Jubilee Birthday to you!
+
+Happy Golden Jubilee Birthday, Engr. Ogheneochuko Onobrakpor.
+
+From a place of love.`
+},
+
+{
+  id: 72,
+  name: "Eno Faith Idedevwo",
+  relation: "Other",
+  message: `Happy Birthday, Boss!
+
+Wishing you a wonderful birthday filled with joy, good health, and continued success.
+
+Your leadership, guidance, and dedication inspire us all to do our best every day. It is truly a privilege to work under someone who leads with such vision, excellence, and commitment.
+
+Thank you for taking a chance on me and allowing me to grow under your wings. I am deeply grateful for your constant support, encouragement, and belief in my potential.
+
+May this new year bring you even greater achievements, fulfillment, and happiness, both professionally and personally.
+
+Warm regards,`
+},
+
+{
+  id: 73,
+  name: "Ngozi Florence Udensi",
+  relation: "Other",
+  message: `Happy 50th Birthday, Man Like Ochuko!
+
+Wishing you God's goodness and mercy, bound together with prosperity and good health, in Jesus' name. Amen.
+
+May your celebration be truly fabulous, filled with joy, laughter, and the love of family and friends. Keep being the amazing person that you are.
+
+Cheers to many more blessed, fruitful, and fulfilling years on earth!
+
+Happy Golden Jubilee!`
+},
+
+{
+  id: 74,
+  name: "Engr. Uchenna Frank Ndulue",
+  relation: "Friend",
+  message: `Engr. Ochuko,
+
+Today marks a remarkable milestone, and I am truly honored to celebrate this special day with you. Turning 50 is not just about the years lived, but about the impact made, and you have certainly made yours count—both as a valued colleague and a trusted friend.
+
+In the oil and gas industry, where resilience, expertise, and integrity are everything, you have consistently stood out. Your professionalism, leadership, and depth of knowledge continue to inspire those around you. Beyond the workplace, your friendship has been a source of encouragement and strength, and I am grateful for the bond we share.
+
+As you celebrate this golden milestone, I wish you continued success, good health, and even greater accomplishments in the years ahead. May this new chapter bring you fulfillment, joy, and the well-deserved recognition of all you have achieved.
+
+Cheers to 50 years of excellence and many more to come!`
+},
+ 
+{
+  id: 75,
+  name: "Mayomi Ejiro Jayc",
+  relation: "Classmate / Alumni",
+  message: `There are men, and there are real men with class and value. Engr. Olorogun Ochuko Onobrakpor is a man of class, great value, and exceptional character—a man of timber and calibre.
+
+He is a proud Urhobo son of the Abraka Kingdom in Delta State. Born and raised in Ajegunle, he navigated the rough edges of street life, learned valuable lessons at Ajeromi Ifelodun High School (popularly known as "Sinclair"), and later proceeded to the University of Port Harcourt, where he honed his engineering and academic skills.
+
+He is more than a friend and more than an old schoolmate. He embodies the biblical saying that there are friends who stick closer than brothers.
+
+Over the years, he has helped and lifted countless people from despair and difficult circumstances. Without exaggeration, he is truly God-sent.
+
+Happy Birthday to a trailblazer and an icon.
+
+May the days ahead be glorious, fruitful, and filled with greater accomplishments.
+
+Thank you for all you do for humanity. ❤️🙏`
+},
+{
+  id: 76,
+  name: "Dr. Emmanuel G. Osaronwaji",
+  relation: "Classmate / Alumni",
+  message: `Happy Golden (50th) Birthday, Ogheneochuko!
+
+This is your golden milestone, and you deserve a special tribute marking five decades of life, growth, achievement, and wisdom.
+
+I met Ochuko in 2016 when he was seconded to my well intervention project as the contractor’s Project Manager. He effectively and efficiently coordinated multiple product lines and business units within his organization, consistently delivering outstanding results. Even after he handed over the role to Dr. Haruna, he continued to provide support from behind the scenes, helping to ensure the continued success of the projects.
+
+Interestingly, those professional interactions blossomed into an unbreakable family bond. Since then, I have had the privilege of sharing in many of his joyful moments, both in Abraka and Lagos. In the same way, he has always been there for my family and me during times of need and in moments of celebration.
+
+Dear Ogheneochuko, may God richly bless your new age. May He grant you continued good health, divine favor, wisdom, peace, and greater accomplishments in all your endeavors. May the years ahead be even more rewarding and fulfilling than those behind you.
+
+Happy Golden Jubilee!`
 }
+
   ];
 
   const [tributes, setTributes] = useState(defaultTributes);
