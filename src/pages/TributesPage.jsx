@@ -8,7 +8,7 @@ export default function TributesPage() {
     const [searchTerm, setSearchTerm] = useState("");
     const [currentPage, setCurrentPage] = useState(1);
 
-    const tributesPerPage = 6;
+    const tributesPerPage = 12;
 
     useEffect(() => {
         window.scrollTo({
@@ -34,6 +34,8 @@ const { tributes } = useOutletContext();
     const currentTributes = filteredTributes.slice(startIndex, endIndex);
 
     return (
+       <>
+       
         <div className="min-h-screen bg-[#f0e7c0] py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-6xl mx-auto">
 
@@ -69,7 +71,7 @@ const { tributes } = useOutletContext();
                 {filteredTributes.length === 0 ? (
                     <p className="text-center text-gray-600 mt-8">No matching tributes found.</p>
                 ) : (
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {currentTributes.map((tribute) => (
                             <div
                                 key={tribute.id}
@@ -147,5 +149,6 @@ const { tributes } = useOutletContext();
                 </div>
             )}
         </div>
+       </>
     );
 }

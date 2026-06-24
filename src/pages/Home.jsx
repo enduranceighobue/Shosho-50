@@ -219,7 +219,7 @@ export default function Home() {
                 <Hero />
             </div>
 
-            <div id="tribute">
+            <div>
                 <TributeSession />
             </div>
 
@@ -239,7 +239,7 @@ export default function Home() {
                 <QuotesSection />
             </div>
 
-            <div id="guestbook">
+            <div id="tribute">
                 <GuestbookSection tributes={tributes} setTributes={setTributes} />
             </div>
 

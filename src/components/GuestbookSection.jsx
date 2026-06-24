@@ -50,8 +50,8 @@ export default function GuestbookSection({ tributes = [], setTributes }) {
             Share your wishes, memories and love for Shosho
           </h6>
 
-          <form className="guestbook-form mx-auto w-210" onSubmit={handleSubmit}>
-            <div className="form-row">
+          <form className="guestbook-form mx-auto w-210 " onSubmit={handleSubmit}>
+            <div className="form-row ">
               <div className="form-group">
                 <label className="text-[#675012]">Your Name</label>
                 <input
@@ -63,7 +63,7 @@ export default function GuestbookSection({ tributes = [], setTributes }) {
                 />
               </div>
 
-              <div className="form-group">
+              <div className="form-group ">
                 <label className="text-[#675012]">Relationship</label>
                 <select
                   name="relation"
@@ -106,7 +106,7 @@ export default function GuestbookSection({ tributes = [], setTributes }) {
           </p>
 
           <button
-            className="tributes-count-btn text-[#675012] font-semibold"
+            className="tributes-count-btn text-[#675012] font-semibold hidden md:block"
             onClick={() => navigate("/tributes")}
           >
             View All Tributes ({tributes.length})

@@ -30,7 +30,7 @@ const { tributes } = useOutletContext();
 
   return (
     <div className="min-h-screen bg-[#f0e7c0] py-16 px-4 sm:px-6 lg:px-8 flex items-center">
-      <div className="max-w-2xl mx-auto w-full">
+      <div className="max-w-5xl mx-auto w-full">
         
         <button
           onClick={() => navigate("/tributes")}
