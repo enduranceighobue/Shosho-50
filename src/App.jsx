@@ -399,6 +399,83 @@ May the years ahead be filled with greater achievements, abundant blessings, and
   name: "Atafo Godwin",
   relation: "Friend",
   message: "Ochuko Onobrakpor, popularly known as 'Sho Sho,' has been my childhood friend since we were about 4 or 5 years old. We lived in the same compound on Silver Street, Olodi Apapa, Lagos. The nickname 'Sho Sho' was given to him by me because that was what my father and his friends called his father back then. In a way, the name was inherited from his father.\n\nAs you can see, we have been friends—indeed, brothers—for over 40 years, and our friendship continues to grow stronger with each passing year.\n\nSho Sho, I wish you God's abundant blessings and favour as you celebrate your 50th birthday. May He continue to guide, protect, and prosper you in all that you do. In Jesus' Name, Amen."
+},
+
+{
+  id: 24,
+  name: "Roseline Obi",
+  relation: "Other",
+  message: "My dear Ochuko, Happy 50th Birthday! On this special milestone, I celebrate you and thank God for your life, good health, and many achievements over the years. May this new chapter bring you even greater joy, peace, and fulfillment. I pray that God grants you many more beautiful years to celebrate, and that you live to see your children, grandchildren, and even great-grandchildren thrive. May your days be filled with happiness, love, and countless reasons to smile. Wishing you a wonderful 50th birthday and many more blessed years ahead. Happy Golden Jubilee!"
+},
+
+{
+  id: 25,
+  name: "Kenneth Ofor",
+  relation: "Friend",
+  message: "As you celebrate not just a milestone, but a remarkable man at 50, I want to honor the incredible person you are. You have always been a shining example of kindness, friendliness, and true generosity. Your life has touched so many through your helping hand, your warm spirit, and your unwavering willingness to show up for others. Countless people are better, stronger, and happier because of you. At 50, your legacy of compassion continues to grow, and your impact speaks louder than words ever could. May this new chapter bring you as much joy as you have given to the world. Happy 50th Birthday, Ochuko! You are deeply appreciated and sincerely celebrated."
+},
+
+{
+  id: 26,
+  name: "Jude Anele",
+  relation: "Friend",
+  message: "Shosho!! Today, I celebrate not just an accomplished engineer, but a childhood friend whose journey I have had the privilege to witness. Many of us started as young dreamers, sharing laughter, mischief, and endless banter. Even then, there was something remarkable about you—a curious mind, a steady determination, and a unique ability to see solutions where others saw problems. These qualities have shaped the exceptional person you are today. Your life is a bridge between dreams and reality, much like the structures and systems you build. You have shown in countless ways that success is not only about intelligence, but also about discipline, dedication, and hard work. Though we may have had our differences over the years, you have grown in maturity and humility, building meaningful relationships and a legacy of excellence that cannot be ignored. To many of us who started from ground zero, despite your status and profession, you remain the loyal, grounded, and dependable friend we have always known. The years may have added wisdom and experience, but they have never diminished your warmth, kindness, or sense of humor. At 50, you stand tall as a symbol of perseverance and achievement. Your journey continues to inspire those around you, and I have no doubt that the years ahead will bring even greater accomplishments, fulfillment, and joy for you and everyone whose life you touch. Happy 50th Birthday, my dear friend. May your days be filled with good health, continued success, and the satisfaction of seeing all your efforts bear even greater fruit. Let the celebration begin!"
+},
+
+{
+  id: 27,
+  name: "Essen",
+  relation: "Friend",
+  message: "Ochuko!!! Happy Birthday o! 🎊 Age is just a number, but yours comes with extra grace, wisdom, and glory. Thank you for being that special person who brings light, good sense, and plenty of laughter wherever you go. Your positive spirit and genuine heart make you a joy to be around. As you celebrate this milestone, I pray that everything you lay your hands on turns into a testimony of success, favor, and happiness. May this new chapter be filled with abundant blessings, good health, peace of mind, and countless reasons to smile. Today is your day, so let the cake, jollof, and enjoyment flow without limits! We celebrate you, appreciate you, and wish you many more wonderful years ahead. We love you dearly. Happy 50th Birthday, Ochuko!"
+},
+
+{
+  id: 28,
+  name: "Paul Morka",
+  relation: "Other",
+  message: "As you celebrate your special day, I join family, friends, and loved ones in wishing you a truly memorable and joyous birthday. May this milestone bring you pleasant memories to cherish and create new moments of happiness that will last a lifetime. I pray that the years ahead are filled with good health, peace of mind, fulfillment, and continued success in all your endeavors. May you enjoy God's favor, abundant blessings, and the reward of your hard work. Happy Birthday, Engr. Onobrakpor Ochuko. Wishing you many more wonderful and fulfilling years ahead."
+},
+
+{
+  id: 29,
+  name: "Edward Kanebi",
+  relation: "Friend",
+  message: "Happy Birthday, Ochuko! Today, I celebrate not just a friend, but a truly rare soul. You have shown me what it means to be selfless—always giving, always showing up, and always putting others before yourself without expecting anything in return. It is a quality I have experienced personally, and I know I am not the only one whose life has been touched and blessed by your kindness. From our days as classmates to the countless moments of laughter, support, and cherished memories we have shared, I am genuinely grateful to have you in my life. Your presence has a way of making every space warmer and every day brighter. On this special milestone, I pray that life rewards you abundantly with the same love, generosity, and goodness that you so freely give to others. May your path be filled with success, happiness, good health, and endless reasons to smile. Cheers to many more beautiful years ahead and to a future filled with even greater blessings. Happy 50th Birthday once again, my dear friend."
+},
+
+{
+  id: 30,
+  name: "Nwakaego",
+  relation: "Classmate / Alumni",
+  message: "My name is Nwakaego, and thinking back to our childhood in Ajegunle fills my heart with so much warmth. We practically grew up side by side, attending the same secondary school on Osho Drive, Sinclair Secondary School. Through our families—especially your sister Esther and my sister—we shared not just visits, but a bond built on friendship, laughter, and countless lasting memories. Looking back, I am grateful for those years and the wonderful experiences that shaped us. It has been inspiring to watch your journey over the years and to see the remarkable person you have become. As you celebrate this golden milestone, I pray that your life continues to be filled with joy, good health, peace, and fulfillment. May the years ahead bring even greater success, happiness, and blessings to you and your loved ones. Happy 50th Birthday, Ochuko! May this special celebration mark the beginning of an even more rewarding chapter in your life."
+},
+
+{
+  id: 31,
+  name: "Onuoha Vivian",
+  relation: "Friend",
+  message: "Ochuko, you are someone I deeply respect and admire. You have a kind and generous heart—one that I have experienced time and time again. Shosho is that one person I can always call upon, and you never turn me down. That level of loyalty, reliability, and goodness is rare, and I will always be grateful for it. As you celebrate this beautiful milestone, my heart is filled with gratitude for your life and the positive impact you have had on so many people. I pray that the lines continue to fall in pleasant places for you, that your days are filled with peace, joy, good health, and fulfillment, and that this new chapter brings you even greater blessings than you have ever known. May your future be brighter than your past, and may all your dreams and aspirations continue to come to fruition. Happy 50th Birthday, Shosho. You are truly special, deeply appreciated, and sincerely celebrated."
+},
+
+{
+  id: 32,
+  name: "Shade Martins",
+  relation: "Friend",
+  message: "Odogwu Chocho @ 50! Happy Birthday to my padi for life. Today, we celebrate 50 incredible years of wisdom, strength, resilience, and plenty of premium cruise. You have been an amazing friend, and your positive spirit, kindness, and sense of humor continue to make life brighter for everyone around you. As you mark this remarkable milestone, I pray that God continues to keep you in good health, bless the work of your hands, and fill your life with even greater joy, peace, and prosperity. May your years ahead be filled with new opportunities, beautiful memories, and countless reasons to celebrate. Enjoy every moment of your special day—you truly deserve it. Chop life today, my brother, you deserve am wella! Happy 50th Birthday, Odogwu Chocho! 😊🎉🎂"
+},
+
+{
+  id: 33,
+  name: "Ojeikere Ajorgbor",
+  relation: "Friend",
+  message: "There are friendships that pass through the seasons of life, and then there are those that quietly become part of your foundation. My brother and dear friend, Ochuko Onobrakpor, belongs firmly to the latter. I have known Ochuko for the better part of my life—long enough for our memories to be woven into the simplest, yet most meaningful moments of growing up. Some of my fondest recollections take me back to those carefree holidays between primary and secondary school, when the front of my house became our unofficial headquarters. It was where everything happened—where laughter echoed, rivalries were born, and friendships were strengthened. From dawn until dusk, we played endlessly, especially football, until the inevitable call to dinner came, often delivered by older siblings sent to retrieve us one by one. Even our disagreements were fleeting; arguments dissolved almost as quickly as they began, replaced again by camaraderie and friendship. Ochuko—fondly called 'Shosho,' a reflection of his striking resemblance to his father—stood out even then. He was always the neat, well-dressed one, carrying himself with a quiet sense of order that hinted at the man he would become. There was something unmistakable about him: a sense that he would never be misplaced, even in the midst of adventure. Beneath that calm exterior lies a subtle determination—not the loud kind, but the steady and resilient kind that drives a man to explore, push boundaries, and ultimately achieve. Through it all, he has always possessed a natural ease with people, drawing others in effortlessly with his warmth and sincerity. Beyond his education and accomplishments, Ochuko is a testament to the power of strong values and a solid upbringing. The firm guidance of a principled father, combined with the warmth, industry, and love of a devoted mother, clearly shaped the character we all admire today. It is evident in his discipline, his integrity, and the way he carries himself through life. To speak of Ochuko without mentioning his generosity would be incomplete. At his core, he is a giver—something anyone who has known him as a friend, colleague, or family member can readily attest to. It is not something he performs; it is simply who he is. Ochuko is a great man doing great things, but more importantly, he is a good man—and that is far rarer. As remarkable as his journey has already been, it feels very much like only the beginning. Cheers to you, my brother. Happy 50th Birthday. May the years ahead bring even greater fulfillment, success, happiness, and countless reasons to celebrate."
+},
+
+{
+  id: 34,
+  name: "Joy Ayomide Olise",
+  relation: "Other",
+  message: "Dear Engr. Ochuko, Happy 50th Birthday, Sir. It is a true privilege to celebrate a leader whose impact goes far beyond business success. Your kindness, generosity, and genuine concern for the well-being of your staff set you apart as an exceptional chairman. You lead with understanding, fairness, and a human touch that creates not just a workplace, but a family. Your consideration for others and the value you place on people continue to inspire loyalty, respect, and dedication in all of us who have the opportunity to work under your leadership. It is rare to find someone who balances excellence with such humility and compassion. As you mark this remarkable milestone, I pray that the years ahead bring you continued good health, greater achievements, and lasting fulfillment. May you continue touching lives, empowering others, and building a legacy that will be remembered for generations. Thank you for your leadership, guidance, and the positive influence you have on those around you. Happy 50th Birthday once again, Sir. Wishing you a joyous celebration and many more prosperous years ahead."
 }
   ];
 
