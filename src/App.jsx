@@ -637,6 +637,146 @@ May the years ahead be filled with greater achievements, abundant blessings, and
   message: "Happy Birthday to you, Ochuko. On this special occasion, I join your family, friends, and well-wishers in celebrating a life filled with purpose, achievement, and impact. As you mark this wonderful milestone, I pray that God blesses you with long life, good health, peace of mind, and continued prosperity. May your days be filled with happiness, your efforts crowned with success, and your future brighter than ever before. May you continue to enjoy God's favor, protection, and abundant blessings in all that you do. Wishing you many more joyful and fulfilling years ahead. Happy 50th Birthday and congratulations on this remarkable milestone!"
 },
 
+{
+  id: 59,
+  name: "Naomi Omolere Spencer",
+  relation: "Other",
+  message: `Dear Ochuko,
+
+I'm excited to witness your 50th birthday celebration, having known each other for almost three decades.
+
+Over the years, we've shared a lot of memories, right from our bachelor's days until today.
+
+We were office colleagues who became friends and, over time, professional colleagues as well.
+
+As you climb to the 5th floor, I pray that Almighty God will continue to bless and protect you and your wonderful family, in Jesus' name. Amen.
+
+Cheers,
+
+Naomi Omolere Spencer`
+},
+
+{
+  id: 60,
+  name: "Mrs. Justina Okpidama",
+  relation: "Family",
+  message: `With so much joy in my heart, I join family, friends, and well-wishers in celebrating you on your special day.
+
+Engr. Ochuko, you are a humble and kind man with a heart full of love for those around you—friends, family, and especially your parents.
+
+We all gather here today to give thanks to God as we celebrate your 50th birthday. We pray that God will bless your new age and grant you many more beautiful years to celebrate His grace and blessings.
+
+Happy Birthday, my dear in-law. I wish you long life and prosperity, with continued strength and good health.
+
+God bless you.`
+},
+
+{
+  id: 61,
+  name: "Athena Ereyi Morgan",
+  relation: "Other",
+  message: `Happy 50th Birthday! 🎉
+
+It is truly a joy to celebrate this remarkable milestone with you. I admire the pride and dedication you show in caring for your family—it speaks volumes about your character. The love, responsibility, and leadership you demonstrate are a powerful legacy, one your children can look up to and emulate for years to come.
+
+As a friend to your wife, I have also witnessed the trust, warmth, and care you extend to those around you. It reflects a man who is confident, grounded, and secure in himself, and that is truly admirable.
+
+May this new chapter of life bring you continued strength, good health, and even greater accomplishments. May God continue to guide you, bless your home, and perfect all that concerns you.
+
+Wishing you many more prosperous and fulfilling years ahead.
+
+Warm regards,
+
+Athena Ereyi Morgan`
+},
+
+{
+  id: 62,
+  name: "Mirrian Ogburie Edom",
+  relation: "Classmate / Alumni",
+  message: `Ochuko Onobrakpor!
+
+My dearest friend, my brother from our secondary school days and the very streets that raised us. Thinking about you brings back memories that words can hardly capture.
+
+Ochuko, you are truly everyone's darling. If humility had a face, it would be yours. Your heart is rare—so pure, so selfless, always thinking of others before yourself, regardless of who they are or where they come from.
+
+You love deeply, you give freely, and you stand firmly for family, culture, and community. A man of the people, a man of honor. You lift others even when you expect nothing in return. Your kind is rare.
+
+You are a pacesetter, a silent achiever, a dream chaser who turns vision into reality.
+
+Na man you be... a real one.
+
+On this beautiful golden milestone, my heart is full of gratitude to God for your life. I pray that your days be filled with unending peace, perfect health in mind and body, and strength that will never fail you. May the Lord crown your years with long life and abundant joy. May you eat the fruit of every seed you have sown in love and kindness, in Jesus' name. Amen 🙏
+
+Happy Golden Birthday, Onos.
+
+You are deeply loved, today and always ❤️`
+},
+
+{
+  id: 63,
+  name: "Sister Ocha",
+  relation: "Family",
+  message: `He has always been a very good, dedicated, hardworking, and well-respected son.
+
+He is always very open-minded and warm-hearted with me and everyone around him.
+
+He has never once behaved or acted like a nephew to me and my siblings; instead, he has always carried himself as though he were the last child of my mother.
+
+I am so happy to see how much you have grown, how successful you have become, and yet remained humble.
+
+May God bless you and grant all your good desires, with good health of heart and mind.
+
+I love you, dear.
+
+Welcome to the 5th Floor.
+
+Lots of love from Sister Ocha.`
+},
+{
+  id: 64,
+  name: "Chinwe Osimiri (Mrs)",
+  relation: "Other",
+  message: `To the Boss Man himself,
+
+Happy Birthday, dear.
+
+A man with a good heart.
+A man who carries others along with him.
+Humility is your second name.
+
+My prayer for you on this special day is that you age gracefully, in Jesus' name. Amen.
+
+Continue to soar like the eagle that you are, because Oluwa has your back.
+
+Wishing you many more fruitful years ahead, in Jesus' name. Amen.`
+},
+
+{
+  id: 65,
+  name: "Akinrimisi Olasoji",
+  relation: "Friend",
+  message: `Happy Birthday, Ochuko!
+
+From our childhood days in primary school until now, you have remained one of the most constant and precious parts of my life. A friendship like ours is rare, and I never take it for granted.
+
+Ochuko, your kindness, your gentle heart, and your willingness to always show up for others make you truly special. You've been more than a friend—you've been a brother in every sense.
+
+On your birthday, I just want you to know how much you mean to me. I'm grateful for you, for our memories, and for the journey we are still on together.
+
+May your life be filled with happiness, peace, and all the good things you deserve.
+
+Happy Birthday, my brother.`
+},
+
+{
+  id: 66,
+  name: "Enetie Sunday",
+  relation: "Other",
+  message: `My name is Enetie Sunday.
+
+My tribute to Ochuko is based on his humble lifestyle irrespective of his wealth and how generous he is to those around him. It shows in how he does not neglect his childhood friends.`
+}
   ];
 
   const [tributes, setTributes] = useState(defaultTributes);
