@@ -1012,9 +1012,349 @@ I also look forward to many more successful collaborations and projects between 
 Cheers to more beautiful years, greater achievements, and abundant blessings! 🥂
 
 Happy Golden Jubilee!`
+},
+
+{
+  id: 82,
+  name: "Patrick Enebeli Ijomah",
+  relation: "Other",
+  message: `Happy 50th Birthday my Brother! as I fondly call you.
+
+Working with you on our past projects were pleasant and enlightening, your willingness to make sure things are done properly and recognizing individual efforts is commendable and should be emulated.
+
+I pray the Lord continues to keep and bless you, may His face always shine upon you and make your path straight and peaceful this year and the years ahead, in Jesus name. Amen!
+
+Looking forward to more projects between Netcore and Berean in the near future.
+
+Cheers to more beautiful years 🥂
+
+From Amoge Ihuoma (your sister).
+
+Happy 50th Birthday, Engr. Ochuko Onobrakpor, alias "Man wey Sabi"
+
+It is with great joy that I celebrate this remarkable milestone with you.
+
+Turning 50 is not just a mark of time, but a reflection of a life filled with purpose, impact, and admirable achievements.
+
+Your dedication, strength of character, and the way you inspire those around you are truly commendable. You have touched lives in meaningful ways, and your legacy continues to grow with every passing year.
+
+As you step into this golden phase, I pray that your days ahead are filled with greater accomplishments, good health, peace, and abundant happiness. May this new chapter bring you even more reasons to smile and celebrate.
+
+Happy Golden Jubilee once again!
+
+Warm regards,`
+},
+
+{
+  id: 83,
+  name: "Femi Akinnirun (Omo Vasco)",
+  relation: "Classmate / Alumni",
+  message: `Happy 50th Birthday, Engr. Ochuko Onobrakpor! aka Chocho
+
+Ochuko, reaching this golden milestone brings back so many memories — from our days in secondary school to growing up in Ajegunle Boundary - AJ, where resilience and brotherhood shaped us, I look back with gratitude.
+
+Your journey from those humble beginnings to the heights you have reached today is a testimony that God is truly faithful.
+
+Beyond your personal journey, what stands out most is your heart for people. You have always been a pillar of support to your colleagues and friends, lifting others up and ensuring no one is left behind. Your humility, despite all your achievements, is a rare gift that inspires everyone around you.
+
+As you celebrate 50 remarkable years, may the Almighty continue to strengthen you, bless you, and lift you higher and higher. You are not only a brother and friend but also a shining example of what it means to live with grace, humility, and purpose.
+
+Cheers to more decades of impact and joy!
+
+AJ to the WORLD
+
+Best wishes,`
+},
+
+{
+  id: 84,
+  name: "Mrs Kelechi Nwamba-Boyejo",
+  relation: "Friend",
+  message: `Dear Bros Ochuko,
+
+Wishing you a very Happy 50th Birthday!
+
+Growing up in Ajegunle with the Onobrakpors was very enriching. How our mothers strived every day with the food business to ensure we turned out right. Our daily pursuit of happiness and greatness! Grateful to God for His grace that has sustained and carried us all these years and will continue to work for our good.
+
+Reading beautiful tributes about you even after so many years is phenomenal. Truly, you are kind and selfless! Thank you for your support towards my family; we can never forget!
+
+The Nwambas pray that God's goodness and mercies continue to enrich and beautify your life and that of your lovely family, now and forevermore.
+
+Cheers to another 50 years of even greater grace!!!
+
+I celebrate you, Sir.`
+},
+
+{
+  id: 85,
+  name: "Mr & Mrs Ugochukwu Uche (MD/CEO Kenbazz Investment Co. Ltd)",
+  relation: "Other",
+  message: `Good evening, my people.
+
+I would like to use this ample opportunity and privilege to celebrate my childhood friend, Engr. Ochuko Onobrakpor.
+
+Though we weren't very close while growing up in the streets of Ajegunle, we became classmates the moment we entered SS1 (Science Class @ A.I.H.S.) and fellow sports lovers. As a supporter of the best football club in the world, Arsenal (the next League and Champions League winners respectively), he is a rare gem who has a heart of gold.
+
+He is not ashamed to say and show where he was born and grew up from—a proud son, loving brother and husband, responsible father, and a friend who sticks closer than a brother.
+
+A man who cries when you cry and celebrates when you celebrate.
+
+A man who has sincerely affected and continues to affect his generation positively.
+
+My amiable and handsome engineer, I celebrate you this day.
+
+I will never forget what you did for me and my household some two Decembers ago, and the business you contracted to me in your apartment at Lekki Phase 1, Lagos (PIO Suites), where I am seriously benefiting and able to meet up with my responsibilities as the man of the house.
+
+I and my entire family are extremely and entirely grateful to you for this show of agape love. We also wish you a resounding Happy Birthday, long life, success, prosperity, good health, wealth, and a sound mind always, brother.
+
+God's blessings on you and yours always, bro.
+
+Enjoy your day and make you do shakara!
+
+From my entire staff and family.`
+},
+
+{
+  id: 86,
+  name: "Okoye Chinedu Sunday",
+  relation: "Friend",
+  message: `OGENEOCHUKO
+
+O — Our jolly fellow, laughter is your art, moments with you create joy.
+G — Grace surrounds you like a song that never ends, steady and true.
+E — Every step you take reflects a heart that gives without counting.
+N — Noble in spirit, you walk with wisdom earned through years of faith.
+E — Elevating all around you with peace and quiet strength.
+
+O — On every road your strength of character shows.
+C — Comfort you always give when hope wears thin.
+H — Heart wide as rivers, lifting broken parts.
+U — Until my lowest moments bloomed again — you stood by all in need.
+K — Kindness resides within your brown-eyed gaze.
+O — Oh, Shosho, may heaven crown this golden age.
+
+Sabi man, you are rich in grace, so I pray heaven gives you more.
+
+Another fifty years in health, wealth, and peace. Where His joy abounds is where you'll remain; may God keep you well-rooted.
+
+Happy 50th Birthday Anniversary, Shosho.`
+},
+
+{
+  id: 87,
+  name: "Chinelo Molokwu",
+  relation: "Other",
+  message: `Dear Ochuko,
+
+Today, I am not just celebrating your 50th birthday (Golden Jubilee), but I am celebrating a friend who is so humble, accommodating, upright, gentle, intelligent, and never a dull moment to be with.
+
+I pray God will continue to bless and prosper you, grant you your heart's desires, and keep you in good health to celebrate many more beautiful years in Jesus' name. Amen.
+
+Stay blessed.`
+},
+
+{
+  id: 88,
+  name: "Edema Austin",
+  relation: "Other",
+  message: `As you climb to the fifth floor, may the Lord increase your steps in everything your hands find to do. Happy Birthday to you, Chocho, as you celebrate your special day. God bless you and your family in Jesus' name. Amen.
+
+From: Kate Anwana
+
+Happy Birthday to you, Chocho, as you celebrate your day. Welcome to the fifth floor. May Almighty God enrich you and your family in Jesus' name.
+
+From: Atim Anwana
+
+Today we celebrate a truly remarkable milestone.
+
+Engineer OgheneOchuko, your loyalty, trustworthiness, and dedication over the years have been nothing short of exceptional. You have grown, improved, and consistently shown what it means to give your best with integrity and pride.
+
+At 50, we honor not just your years, but your impact. You are deeply valued and greatly appreciated.
+
+Happy 50th Birthday, and thank you for everything you do.`
+},
+
+{
+  id: 89,
+  name: "Dumbari Nwikwor, Operations Director, Netcore Integrated Services Nigeria Limited",
+  relation: "Other",
+  message: `Dear Sir,
+
+Today, we celebrate an extraordinary man, Engineer Ochuko Onobrakpor, as he marks a remarkable milestone — his 50th Birthday. Fifty years of purpose, impact, resilience, and excellence.
+
+Your journey has been one of dedication, hard work, and unwavering commitment to both your profession and the people around you. As an engineer, you have demonstrated intelligence, leadership, and innovation, earning the respect and admiration of colleagues, friends, and family alike.
+
+Beyond your professional achievements, you are known for your humility, generosity, and strength of character. You have touched many lives through your guidance, encouragement, and support, leaving lasting impressions wherever you go. Your ability to inspire others while remaining grounded is truly worthy of celebration.
+
+This golden milestone is not only a celebration of age but a celebration of a life well lived — filled with accomplishments, meaningful relationships, and valuable contributions to society. Your wisdom, experience, and passion continue to motivate younger generations to strive for excellence.
+
+As you step into this new chapter, may your days ahead be filled with greater achievements, sound health, peace, happiness, and countless blessings. May the years to come bring even more fulfillment and joy to you and your loved ones.
+
+Happy 50th Birthday, Engineer Ochuko Onobrakpor.
+
+Your legacy of excellence continues to shine brightly, and today we honor and celebrate you. Congratulations and cheers to many more fruitful years ahead.
+
+Best Regards,`
+},
+
+{
+  id: 90,
+  name: "Daddy Ambrose Eyabare and Family",
+  relation: "Friend",
+  message: `Just like yesterday when you were with me in Port Harcourt. I thank God Almighty, who by His infinite mercy and grace has made you grow from a humble background to become what you are today.
+
+My son, the sky is not your limit but the beginning of a more resourceful and glorious life. This little light of yours will shine even brighter.
+
+You are a rare gem in our family. May Almighty God continue to keep, preserve, and protect you as you celebrate your life at 50.
+
+Many happy returns of the day.
+
+God bless you, my son, as you continue to celebrate many, many more years.
+
+Happy Birthday, my son.`
+},
+
+{
+  id: 91,
+  name: "Shakirat Asake Kosiru",
+  relation: "Classmate / Alumni",
+  message: `A big Congratulations to Engr. Ogheneochuko Onobrakpor (B.Eng, MBA) on this incredible blessing of attaining the Big 50.
+
+I stand in awe of the divine orchestration of your life. You are a storyteller with a vision that leaves a lasting impact on hearts.
+
+The kind of excellence you possess is extraordinary; it is discipline, grace, and it is God.
+
+Ochuko, you are a movement in yourself and always want the people around you to amount to something meaningful in life. That is the true core of existence.
+
+A true king in his own lane; may your influence continue to speak for you in places you have not even entered yet. Amen.
+
+Your kindness and fairness in treating others are inspiring. Sometimes, I cannot help but marvel at the remarkable presence you bring to the world.
+
+A goal-getter, a calculated and reputable business mind, a jolly good fellow, magnanimous at heart, and your humility is top-notch.
+
+More than 33 years and counting, you have never stopped amazing me.
+
+Words are not enough to eulogize you. This is truly a remarkable and joyous moment, and I am happy to share in your joy.
+
+May the road rise to meet you every day, and may supplies fill your household even ahead of your needs, granting you robust health to enjoy the fruits of your labor. Amen.`
+},
+{
+  id: 92,
+  name: "Percy Onuoha (AKA Peco Million)",
+  relation: "Other",
+  message: `Happy 50th Birthday, Ochuko.
+
+May your wisdom continue to grow, and may your life continue to be filled with love and authenticity.
+
+Wishing you peace, love, joy, and many more fruitful years ahead in good health.
+
+You have made so many lives better, and may Almighty God in Heaven continue to bless you abundantly.`
+},
+
+{
+  id: 93,
+  name: "Nnadozie Ihuoma",
+  relation: "Other",
+  message: `I remember seeing you at Uti Edio’s house whenever I came to visit.
+
+As young boys, we always looked up to the “big bros” who were making strides, drawing inspiration from their journeys, and you were certainly one of those figures.
+
+Fast forward to some years ago, and it’s interesting how life reconnects paths. Your company worked closely with my wife’s, and she spoke so highly of you. I have also heard nothing but glowing commendations from mutual friends who have had the privilege of working with you. It’s clear that beyond your accomplishments, you are deeply respected for who you are.
+
+As you mark this incredible milestone, I celebrate you.
+
+May the years ahead bring you even more success, good health, peace, and joy.
+
+Cheers to 50 remarkable years, and many more to come!`
+},
+
+{
+  id: 94,
+  name: "Nnamdi Angela Chisom",
+  relation: "Other",
+  message: `Thank you for inviting me to celebrate with you today.
+
+Your kindness, strength, and the joy you bring to everyone around you make this occasion special. May this new year of your life bring you good health, more blessings, and achievements beyond your expectations.
+
+Happy Birthday! May your days be filled with peace, your heart with gratitude, and your future with endless possibilities.`
+},
+
+{
+  id: 95,
+  name: "Nnegi Castro",
+  relation: "Other",
+  message: `It is both an honour and a privilege to pay tribute today to a truly remarkable man as he celebrates his 50th birthday.
+
+Having known him since childhood, I can confidently say that the values and qualities we admired in him from an early age have only grown stronger with time. Over the years, I have watched him mature into a man of integrity, wisdom, humility, and compassion. His life has been marked by dedication, resilience, and an unwavering commitment to those around him.
+
+Fifty years is a significant milestone — a celebration not only of age, but of experience, achievement, relationships, and the impact one has made on others. Through every stage of life, he has carried himself with dignity and purpose, earning the respect and admiration of friends, colleagues, and family alike.
+
+What stands out most about him is his consistency of character. In a world where many things change, he has remained dependable, sincere, and gracious. His kindness, calm strength, and willingness to support others have touched many lives and continue to inspire those privileged to know him.
+
+Today, as we celebrate this Golden Jubilee, we also celebrate a life well lived — a life of meaning, friendship, service, and honour. We thank God for His faithfulness over the past five decades and for the many accomplishments and memories that have defined this journey.
+
+On this special occasion, I pray that the years ahead will bring continued good health, peace, happiness, and greater fulfilment. May your legacy of excellence and goodwill continue to grow, and may you enjoy many more fruitful and prosperous years.
+
+Happy 50th Birthday, and congratulations on this remarkable milestone.
+
+Thank you.`
+},
+
+{
+  id: 97,
+  name: "Obioha Uche",
+  relation: "Other",
+  message: `My brother from another mother, as you begin another stage of your life, I pray that the good Lord blesses you with good health, wisdom, wealth, and peace of mind.
+
+Welcome to the 5th floor.
+
+Happy Birthday!`
+},
+
+{
+  id: 98,
+  name: "Barrister Collins \"Super\" Onyebuchi",
+  relation: "Other",
+  message: `Ochuko was one of the first classmates to patronize my services as a legal practitioner, and he has continued to use my services for many other briefs to this day.
+
+He is a man who truly believes that charity should begin at home.
+
+Happy Birthday, my brother.
+
+May God continue to bless you abundantly for your kind heart.`
+},
+
+{
+  id: 99,
+  name: "Aderinsola",
+  relation: "Other",
+  message: `Happy Birthday, great man.
+
+I hope this new year brings you progress, peace, and happiness.
+
+Wishing you many more years of blessings, good health, and fulfillment.`
+},
+
+{
+  id: 100,
+  name: "General Ade",
+  relation: "Friend",
+  message: `Happy 50th Birthday to an amazing friend and brother from childhood.
+
+Today, I celebrate not just your new age, but the incredible person you have always been—a man of peace, humility, kindness, and a heart that is always ready to help others.
+
+Knowing you from childhood until now has been a great blessing. Your life has been a true example of love, patience, wisdom, and selflessness. You have touched many lives positively, and I pray that as you mark this golden age of 50, God will continue to bless you with good health, greater peace, joy, long life, and abundant blessings.
+
+May this new chapter bring you more success, happiness, and fulfillment. Thank you for being a dependable friend, a peacemaker, and a blessing to everyone around you.
+
+Welcome to 50—a beautiful milestone for a truly great man.
+
+Happy Golden Jubilee, Engr. Ochuko.
+
+May your best years be ahead of you.
+
+One love always ❤️`
 }
-
-
 
   ];
 
