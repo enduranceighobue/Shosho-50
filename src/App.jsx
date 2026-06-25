@@ -1354,7 +1354,113 @@ Happy Golden Jubilee, Engr. Ochuko.
 May your best years be ahead of you.
 
 One love always ❤️`
-}
+},
+
+{
+  id: 101,
+  name: "Okorite Orupabo, Human Resource Manager",
+  relation: "Friend",
+  message: `Working with you has quietly changed my perspective on leadership and growth.
+
+You are the kind of person who gives people room to become better versions of themselves. You believe in growth, in second chances, and in carrying people along, and that is something many people may never forget about you.
+
+One thing I have personally learnt from working with you is that experience is important, but attitude and willingness to grow matter just as much.
+
+What also stood out to me from the very beginning was your humility. During my interview, you never even mentioned that you were the owner of the company. You simply said you would “tell the boss,” and that simple moment said a lot about the kind of person you are.
+
+I still remember when you said the first stage of your life was to make it, the second was to make your family proud, and now, this stage is about leaving a legacy beyond your immediate family by supporting people and making an impact.
+
+Honestly, those are not just words. Anyone who has worked closely with you can see that you truly live by them.
+
+Thank you for being intentional about people and for leading in a way that leaves a lasting impact.
+
+Happy Golden Jubilee, Sir.
+
+Kind Regards,`
+},
+
+{
+  id: 102,
+  name: "Becky Lammy",
+  relation: "Other",
+  message: `Happy Birthday once again, Sir.
+
+My life is better simply because you are in it. Thank you for everything.
+
+I appreciate you more than words can express. Thank you for being such a blessing to me.
+
+Your kindness and constant support mean the world to me. I am incredibly grateful for the joy you bring into my life, today and always.
+
+I just wanted to take a moment to say how grateful I am to have you in my life. Thank you for always being there for me, Sir. You are truly one of a kind.
+
+May God continue to bless you abundantly, Sir. 🙏`
+},
+
+{
+  id: 103,
+  name: "Kanebi Chukwuma",
+  relation: "Other",
+  message: `Happy 50th Birthday!
+
+Today, we celebrate not just your age, but the wonderful person you have become over the years. Knowing you since childhood has been a privilege, and it has been inspiring to witness your journey, growth, and achievements through the years.
+
+Your kindness, strength, and good nature have always stood out, and this milestone is a reminder of the many lives you have touched along the way.
+
+Wishing you good health, happiness, and many more years filled with success, peace, and joyful moments. May your 50th year be one of your very best yet.
+
+Happy Birthday, and congratulations on this golden milestone!`
+},
+
+{
+  id: 104,
+  name: "Elder (Engr.) Sunday & Pastor Ima-Ima Essien",
+  relation: "Other",
+  message: `All glory and thanks be to God on the occasion of your Golden Birthday, Engr. Ogheneochuko Onobrakpor.
+
+Happy Birthday at 50!
+
+God bless your new age. May the Lord crown the year with His goodness, and may your path overflow with abundance. May His grace be sufficient in every area of your life as you celebrate a more remarkable year.
+
+May the next fifty (50) years be filled with even more glorious and honorable accomplishments, in good health and sound mind, in Jesus' Name. Amen.
+
+Congratulations.`
+},
+
+{
+  id: 105,
+  name: "Mrs Joy Ofodu (Mother-in-Law)",
+  relation: "Family",
+  message: `To my outstanding son-in-law, Ochuko, on your 50th Birthday (Golden Jubilee).
+
+From the moment you joined our family, I noticed that you are full of wisdom. You are a devoted husband, a fantastic father, and a man of true integrity.
+
+Watching you grow and build your life has been a privilege. I appreciate the wonderful life you and Ify are building together.
+
+You are an exceptional role model and a born leader. Thank you for your hard work, your endless patience, and your kind heart.
+
+We celebrate you and everything that makes you special.
+
+Happy Birthday to the world's best son-in-law. You are one in a million, and I am proud of you.
+
+YOU ARE A LEGEND.`
+},
+
+
+{
+  id: 106,
+  name: "Collins Sokore",
+  relation: "Other",
+  message: `I join family and well-wishers to celebrate Shosho hitting 50 — my mate since day one at university, where we studied the same course and survived the drills together.
+
+With hindsight, I can say Ochuko has always been a go-getter — ambitious, focused, and resolute. I recall how often he would brag about being a "standing four" like Stephen Keshi each time we told him he would be a substitute when we went for football games at UNIPORT. However, his mouth did the playing more than his feet!
+
+He has built a solid life as a devoted family man, contrary to his "ozigizaga" movements around Delta Park in our school days.
+
+Fifty looks damn good on you, brother. Here’s to the next 50 years of friendship, wins, and more laughs.
+
+Happy 50th, Ochuko! We love you.`
+},
+
 
   ];
 
